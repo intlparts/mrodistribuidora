@@ -11,6 +11,18 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'IndexController@index');
+
+Route::get('/test', 'TestController@test');
+
+// suppliers
+Route::get('/suppliers', 'SupplierController@index');
+Route::get('/suppliers/{trade_name}/', 'SupplierController@show');
+
+// Manufacturers
+Route::get('/manufacturers', 'ManufacturerController@index');
+Route::get('/manufacturers/{name}/', 'ManufacturerController@show');
+
+// Products
+Route::get('/supplies', 'SupplieController@index');
+Route::get('/supplies/{number}/', 'SupplieController@show');
