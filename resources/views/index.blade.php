@@ -568,11 +568,6 @@ body.page-id-9011 .product h3 .count{display:none;}
     </a>
   </li>
   @endforeach
-  <li id="nav-menu-item-5718" class="main-menu-item menu-item-depth-0 menu-item menu-item-type-custom menu-item-object-custom">
-    <a href="/providers" class="menu-link dropdown-toggle disabled main-menu-link">
-      <span class="menu-name">PROVEEDORES</span>
-    </a>
-  </li>
 </ul>                      </div>
                   </div>
               </div>
