@@ -21,7 +21,7 @@
   }
   </style>
 
-  <title>Business WordPress Theme by CactusThemes – Just another WordPress site</title>
+  <title>Inicio - MRODistribuidora</title>
 
   <script type="text/javascript">
   window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/business-hub.cactusthemes.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.6"}};
@@ -442,7 +442,9 @@ body.page-id-9011 .product h3 .count{display:none;}
         <!--Brand style 2 & 3-->
         <ul class="nav navbar-nav logo-infomation">
             <li>
-                                <a href="http://business-hub.cactusthemes.com/" title="Business WordPress Theme by CactusThemes"><img src="assets/images/Logo.png" alt="Business WordPress Theme by CactusThemes"></a>
+                                <a href="/" title="Inicio MRODistribuidora">
+                                  <img src="assets/images/Logo.png" alt="Logo MRODistribuidora">
+                                </a>
             </li>
         </ul>
         <!--Brand style 2 & 3-->
@@ -453,8 +455,8 @@ body.page-id-9011 .product h3 .count{display:none;}
                                 <a href="javascript:;" class="open-search-main-menu"><i class="fa fa-search"></i><i class="fa fa-times"></i></a>
                 <ul class="search-main-menu dark-div">
                     <li>
-                        <form action="http://business-hub.cactusthemes.com/" method="get">
-                            <input type="text" placeholder="Search..." name="s">
+                        <form action="/search" method="get">
+                            <input type="text" placeholder="Search..." name="search">
                             <i class="fa fa-search"></i>
                             <input type="submit" value="Search">
                         </form>
@@ -463,28 +465,7 @@ body.page-id-9011 .product h3 .count{display:none;}
             </li>
         </ul><!--search-drop-down-->
                 
-                    <!--checkout - remove in style 1-->
-            <aside class="widget col-md-12 widget-col nav navbar-nav navbar-right header-top-checkout">
-                <div class="widget-inner">
-                    <div class="ct-cart-content">
-                              
-                           <a href="http://business-hub.cactusthemes.com/products-checkout/" style="pointer-events:none;">      
-                                <div class="fa fa-shopping-cart"></div>
-                            </a>
-                                    
-                    </div>
-                </div>
-            </aside>
-                            <aside class="widget col-md-12 widget-col nav navbar-nav navbar-right header-cart-mobile">
-                    <div class="widget-inner">
-                        <div class="ct-cart-mobile-content">
-                                                            <a href="http://business-hub.cactusthemes.com/products-checkout/" style="pointer-events:none;">      
-                                    <div class="fa fa-shopping-cart"></div>
-                                </a>
-                                                    </div>
-                    </div>
-                </aside> 
-                    <!--checkout--> 
+                    
             
         
         <ul class="nav navbar-nav open-menu-mobile">
@@ -500,18 +481,18 @@ body.page-id-9011 .product h3 .count{display:none;}
 <!--cactus-main-menu-->
 <ul class="nav navbar-nav cactus-main-menu">
   <li id="mega-menu-item-1636" class=" menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home current-menu-ancestor current-menu-parent menu-item-has-children parent level0 has-sub dropdown main-menu-item list-style">
-    <a href="http://business-hub.cactusthemes.com/">INICIO</i></a>
+    <a href="/">INICIO</i></a>
   <li id="mega-menu-item-4155" class=" menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children parent level0 has-sub dropdown main-menu-item list-style">
-    <a href="#">PRODUCTOS</i></a>
+    <a href="/supplies">PRODUCTOS</i></a>
   </li>
   <li id="mega-menu-item-6328" class=" menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children parent level0 has-sub dropdown main-menu-item list-style">
-    <a href="#">QUIENES SOMOS</i></a>
+    <a href="/about">QUIENES SOMOS</i></a>
   </li>
   <li id="mega-menu-item-5661" class=" menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children parent level0 has-sub dropdown main-menu-item list-style">
-    <a href="#">CONTACTO</i></a>
+    <a href="/contact">CONTACTO</i></a>
   </li>
   <li id="mega-menu-item-4795" class=" menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children parent level0 has-sub dropdown main-menu-item dropdown-mega">
-    <a href="#">SOLICITAR COTIZACION</i></a>
+    <a href="/contact">SOLICITAR COTIZACION</i></a>
   </li>
 </ul>
         
@@ -525,7 +506,8 @@ body.page-id-9011 .product h3 .count{display:none;}
         
             <ul class="nav navbar-nav logo-infomation">
                 <li>
-                                        <a href="http://business-hub.cactusthemes.com/" title="Business WordPress Theme by CactusThemes"><img src="assets/images/Logo.png" alt="Business WordPress Theme by CactusThemes"></a>
+                                        <a href="/" title="Logo MRODistribuidora">
+                                          <img src="assets/images/Logo.png" alt="Logo MRODistribuidora"></a>
                 </li>
             </ul>
             
@@ -555,10 +537,10 @@ body.page-id-9011 .product h3 .count{display:none;}
                     <div class="top-content-bar dark-div">
                         <div class="top-content-bar-content">
                                                                                                 <p><span class="ct-note-menu large bg-m-color-2" style="background-color:#c72c2c">HOT</span>                                                                                   
-                                                <a href="http://business-hub.cactusthemes.com/product-news/20-off-for-all-books-in-it-and-technology-categories/" title="20% OFF FOR ALL BOOKS IN IT AND TECHNOLOGY CATEGORIES">20% OFF FOR ALL BOOKS IN IT AND TECHNOLOGY CATEGORIES</a>
+                                                <a href="">20% OFF FOR ALL BOOKS IN IT AND TECHNOLOGY CATEGORIES</a>
                                                                                                                         </p>
                                                                     <p><span class="ct-note-menu large bg-m-color-2" style="background-color:#77b727">NEW</span>                                                                                   
-                                                <a href="http://business-hub.cactusthemes.com/product-news/be-the-first-to-own-full-set-of-harry-porter/" title="BE THE FIRST TO OWN FULL SET OF HARRY PORTER">BE THE FIRST TO OWN FULL SET OF HARRY PORTER</a>
+                                                <a href="" title="BE THE FIRST TO OWN FULL SET OF HARRY PORTER">BE THE FIRST TO OWN FULL SET OF HARRY PORTER</a>
                                                                                                                         </p>
                                                                                     </div>
                     </div><!-- top-content-bar dark-div -->
@@ -574,21 +556,21 @@ body.page-id-9011 .product h3 .count{display:none;}
                           <div class="eco-all-categories">
                               <div class="all-cat-no-link">
                                   <i class="fa fa-bars"></i>
-                                  <span class="menu-name">PROVEEDORES</span>
+                                  <span class="menu-name">FABRICANTES</span>
                               </div>
                           </div>
                             
 <ul>
   @foreach($suppliers as $supplier)
   <li id="nav-menu-item-5718" class="main-menu-item menu-item-depth-0 menu-item menu-item-type-custom menu-item-object-custom">
-    <a href="/suppliers/{{ $supplier->trade_name }}" class="menu-link dropdown-toggle disabled main-menu-link">
-      <span class="menu-name">{{ $supplier->trade_name }}</span>
+    <a href="/manufacturers/{{ $supplier->name }}" class="menu-link dropdown-toggle disabled main-menu-link">
+      <span class="menu-name">{{ $supplier->name }}</span>
     </a>
   </li>
   @endforeach
   <li id="nav-menu-item-5718" class="main-menu-item menu-item-depth-0 menu-item menu-item-type-custom menu-item-object-custom">
-    <a href="#" class="menu-link dropdown-toggle disabled main-menu-link">
-      <span class="menu-name">Fabricantes</span>
+    <a href="/providers" class="menu-link dropdown-toggle disabled main-menu-link">
+      <span class="menu-name">PROVEEDORES</span>
     </a>
   </li>
 </ul>                      </div>
@@ -644,11 +626,9 @@ body.page-id-9011 .product h3 .count{display:none;}
                         <!---style 1 & Style 5 -->
                 <div class="ct-sc-special-hd ct-s2">
                     <h3 class="primary-title h4">
-                        <span class="icon fa fa-cube"></span>                        <span>TWO-DAY SHIPPING</span>                    </h3>
+                        <span class="icon fa fa-cube"></span>                        <span>ENVIOS EN DOS DIAS</span>                    </h3>
                 </div>
-                <div class="text-content"><p>We created a built-in 
-comments functionality that allows you to comment on any entry, directly
- create collaborative teams in the application.</p>
+                <div class="text-content"><p>Los clientes esperan recibir sus pedidos cuanto antes. Es por eso que nuestros vendedores estan trabajando siempre para cumplir este requisito.</p>
 </div>                
             <!---style 1 & Style 5 -->
 
@@ -661,11 +641,9 @@ comments functionality that allows you to comment on any entry, directly
                         <!---style 1 & Style 5 -->
                 <div class="ct-sc-special-hd ct-s2">
                     <h3 class="primary-title h4">
-                        <span class="icon fa fa-smile-o"></span>                        <span>30 DAYS MONEY BACK</span>                    </h3>
+                        <span class="icon fa fa-smile-o"></span>                        <span>30 DIAS DE DEVOLUCION</span>                    </h3>
                 </div>
-                <div class="text-content"><p>We promise to be your 
-trusted partner for technology by delivering the advice, service and 
-convenience you deserve all at competitive prices. </p>
+                <div class="text-content"><p>Prometemos ser su socio de confianza para la tecnología al brindarle el asesoramiento y el servicio que se merece, todo a precios competitivos.</p>
 </div>                
             <!---style 1 & Style 5 -->
 
@@ -678,11 +656,9 @@ convenience you deserve all at competitive prices. </p>
                         <!---style 1 & Style 5 -->
                 <div class="ct-sc-special-hd ct-s2">
                     <h3 class="primary-title h4">
-                        <span class="icon fa fa-globe"></span>                        <span>WORLDWIDE SHIPPING</span>                    </h3>
+                        <span class="icon fa fa-globe"></span>                        <span>ENVIO AL MUNDO ENTERO</span>                    </h3>
                 </div>
-                <div class="text-content"><p>Shop from over 850 of the 
-best brands, including BUSINESS HUB’ own label. Plus, get your daily fix
- of the freshest style, celebrity and music news.</p>
+                <div class="text-content"><p>Compre en más de 850 de las mejores marcas. Además, obtenga su dosis diaria de las noticias más recientes sobre las empresas en todo el mundo.</p>
 </div>                
             <!---style 1 & Style 5 -->
 
@@ -695,11 +671,22 @@ best brands, including BUSINESS HUB’ own label. Plus, get your daily fix
     </div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><div class="vc_row wpb_row vc_row-fluid vc_custom_1457600871230"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper">
     <div class="wpb_text_column wpb_content_element ">
         <div class="wpb_wrapper">
-            <h3 style="text-align: center;">NEW     <span class="ct-icon-10-document-book-article"></span> BOOKS</h3>
+            <h3 style="text-align: center;">Nuevos Insumos</h3>
 
         </div>
     </div>
-</div></div></div></div><div data-vc-full-width="true" data-vc-full-width-init="true" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_custom_1457600876804" style="position: relative; left: 0px; box-sizing: border-box; width: 1354px;"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper">        <div class="ct-ft-gallery shortcode archive " data-item="5" data-auto-play="0" data-auto-play-speed="5000">
+</div></div></div></div>
+
+
+
+
+
+
+
+
+
+
+<div data-vc-full-width="true" data-vc-full-width-init="true" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_custom_1457600876804" style="position: relative; left: 0px; box-sizing: border-box; width: 1354px; padding-bottom: 50px !important"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper">        <div class="ct-ft-gallery shortcode archive " data-item="5" data-auto-play="0" data-auto-play-speed="5000">
             <div class="ct-post-gallery">
                 <div class="cactus-listing-wrap">
                     <div class="cactus-listing-config style-2"> <!--addClass: style-1 + (style-2 -> style-n)-->
@@ -721,7 +708,7 @@ best brands, including BUSINESS HUB’ own label. Plus, get your daily fix
                                             <!--picture (remove)-->
                                                                                         <div class="picture">
                                                 <div class="picture-content">
-                                                    <a href="http://business-hub.cactusthemes.com/downloads/the-creative-habit/" title="SMOOTHLINE SCRIPT">
+                                                    <a href="/" title="SMOOTHLINE SCRIPT">
                                                             <div class="adaptive"><img src="assets/images/business-hub-product-006-460x307.jpg" alt="business-hub-product-006" class="cactus-lazy ct-done" style="display: block;" width="460" height="307"></div>                                                        
                                                     </a>
                                                                                                 
@@ -731,7 +718,7 @@ best brands, including BUSINESS HUB’ own label. Plus, get your daily fix
                                             <div class="content">
                                                                                                 <!--Title (no title remove)-->
                                                 <h3 class="h5 cactus-post-title entry-title"> 
-                                                    <a href="http://business-hub.cactusthemes.com/downloads/the-creative-habit/" title="">SMOOTHLINE SCRIPT</a> 
+                                                    <a href="/" title="">SMOOTHLINE SCRIPT</a> 
                                                 </h3><!--Title-->
                                                                         
                                                                         
@@ -742,7 +729,7 @@ best brands, including BUSINESS HUB’ own label. Plus, get your daily fix
                 <div class="price-details ">
                     <span class="edd_price" id="">$ 69.99</span>                </div>
                                 <div class="buy-button ">
-                    <a href="http://business-hub.cactusthemes.com/downloads/the-creative-habit/" class="btn btn-default btn-style-1 btn-style-2 btn-style-4 imp-color-1">
+                    <a href="/" class="btn btn-default btn-style-1 btn-style-2 btn-style-4 imp-color-1">
                         <div class="add-style">                                                                
                             <span>BUY NOW</span>
                         </div>
@@ -762,7 +749,7 @@ best brands, including BUSINESS HUB’ own label. Plus, get your daily fix
                                             <!--picture (remove)-->
                                                                                         <div class="picture">
                                                 <div class="picture-content">
-                                                    <a href="http://business-hub.cactusthemes.com/downloads/the-craft-of-words/" title="STEELHEART">
+                                                    <a href="/" title="STEELHEART">
                                                             <div class="adaptive"><img src="assets/images/51-460x307.jpg" alt="5" class="cactus-lazy ct-done" style="display: block;" width="460" height="307"></div>                                                        
                                                     </a>
                                                                                                 
@@ -772,7 +759,7 @@ best brands, including BUSINESS HUB’ own label. Plus, get your daily fix
                                             <div class="content">
                                                                                                 <!--Title (no title remove)-->
                                                 <h3 class="h5 cactus-post-title entry-title"> 
-                                                    <a href="http://business-hub.cactusthemes.com/downloads/the-craft-of-words/" title="">STEELHEART</a> 
+                                                    <a href="/" title="">STEELHEART</a> 
                                                 </h3><!--Title-->
                                                                         
                                                                         
@@ -783,7 +770,7 @@ best brands, including BUSINESS HUB’ own label. Plus, get your daily fix
                 <div class="price-details ">
                     <span class="edd_price" id="">$ 81.99</span>                </div>
                                 <div class="buy-button ">
-                    <a href="http://business-hub.cactusthemes.com/downloads/the-craft-of-words/" class="btn btn-default btn-style-1 btn-style-2 btn-style-4 imp-color-1">
+                    <a href="/" class="btn btn-default btn-style-1 btn-style-2 btn-style-4 imp-color-1">
                         <div class="add-style">                                                                
                             <span>BUY NOW</span>
                         </div>
@@ -803,7 +790,7 @@ best brands, including BUSINESS HUB’ own label. Plus, get your daily fix
                                             <!--picture (remove)-->
                                                                                         <div class="picture">
                                                 <div class="picture-content">
-                                                    <a href="http://business-hub.cactusthemes.com/downloads/world-without-words/" title="LOVETON TYPEFACE">
+                                                    <a href="/" title="LOVETON TYPEFACE">
                                                             <div class="adaptive"><img src="assets/images/business-hub-product-010-460x307.jpg" alt="business-hub-product-010" class="cactus-lazy ct-done" style="display: block;" width="460" height="307"></div>                                                        
                                                     </a>
                                                                                                 
@@ -813,7 +800,7 @@ best brands, including BUSINESS HUB’ own label. Plus, get your daily fix
                                             <div class="content">
                                                                                                 <!--Title (no title remove)-->
                                                 <h3 class="h5 cactus-post-title entry-title"> 
-                                                    <a href="http://business-hub.cactusthemes.com/downloads/world-without-words/" title="">LOVETON TYPEFACE</a> 
+                                                    <a href="/" title="">LOVETON TYPEFACE</a> 
                                                 </h3><!--Title-->
                                                                         
                                                                         
@@ -824,7 +811,7 @@ best brands, including BUSINESS HUB’ own label. Plus, get your daily fix
                 <div class="price-details ">
                     <span class="edd_price" id="">$ 80.00</span>                </div>
                                 <div class="buy-button ">
-                    <a href="http://business-hub.cactusthemes.com/downloads/world-without-words/" class="btn btn-default btn-style-1 btn-style-2 btn-style-4 imp-color-1">
+                    <a href="/" class="btn btn-default btn-style-1 btn-style-2 btn-style-4 imp-color-1">
                         <div class="add-style">                                                                
                             <span>BUY NOW</span>
                         </div>
@@ -839,335 +826,39 @@ best brands, including BUSINESS HUB’ own label. Plus, get your daily fix
                                             </div>
                                         </div>
                                         
-                                    </div><div class="cactus-post-item hentry slick-slide slick-current slick-active" style="width: 425px;" data-slick-index="0" aria-hidden="false">
-                                        <div class="entry-content">                                        
-                                            <!--picture (remove)-->
-                                                                                        <div class="picture">
-                                                <div class="picture-content">
-                                                    <a href="http://business-hub.cactusthemes.com/downloads/monogram-symbol/" title="FOOD PACKAGING">
-                                                            <div class="adaptive"><img src="assets/images/edd-demo-02-460x307.jpg" alt="edd-demo-02" class="cactus-lazy ct-done" style="display: block;" width="460" height="307"></div>                                                        
-                                                    </a>
-                                                                                                
-                                                </div>  
-                                                                                            </div>
-                                                                                        <!--picture-->
-                                            <div class="content">
-                                                                                                <!--Title (no title remove)-->
-                                                <h3 class="h5 cactus-post-title entry-title"> 
-                                                    <a href="http://business-hub.cactusthemes.com/downloads/monogram-symbol/" title="">FOOD PACKAGING</a> 
-                                                </h3><!--Title-->
-                                                                        
-                                                                        
-    <!--excerpt (remove)-->
-                                                                        
-                                                                        
-                            <div class="digital-price">
-                <div class="price-details ">
-                    <span class="edd_price" id="edd_price_4166">$ 79.99</span>                </div>
-                                <div class="buy-button ">
-                    <a href="http://business-hub.cactusthemes.com/downloads/monogram-symbol/" class="btn btn-default btn-style-1 btn-style-2 btn-style-4 imp-color-1">
-                        <div class="add-style">                                                                
-                            <span>BUY NOW</span>
-                        </div>
-                    </a>
-                </div>
-            </div>                                                      
-                
-                                                                           
-                                                                        
-        
-                                                <div class="cactus-last-child"></div> <!--fix pixel no remove-->
-                                            </div>
-                                        </div>
-                                        
-                                    </div><div class="cactus-post-item hentry slick-slide slick-active" style="width: 425px;" data-slick-index="1" aria-hidden="false">
-                                        <div class="entry-content">                                        
-                                            <!--picture (remove)-->
-                                                                                        <div class="picture">
-                                                <div class="picture-content">
-                                                    <a href="http://business-hub.cactusthemes.com/downloads/the-icon-handbook/" title="SIMPLE DEVICE">
-                                                            <div class="adaptive"><img src="assets/images/edd-demo-04-460x307.jpg" alt="edd-demo-04" class="cactus-lazy ct-done" style="display: block;" width="460" height="307"></div>                                                        
-                                                    </a>
-                                                                                                
-                                                </div>  
-                                                                                            </div>
-                                                                                        <!--picture-->
-                                            <div class="content">
-                                                                                                <!--Title (no title remove)-->
-                                                <h3 class="h5 cactus-post-title entry-title"> 
-                                                    <a href="http://business-hub.cactusthemes.com/downloads/the-icon-handbook/" title="">SIMPLE DEVICE</a> 
-                                                </h3><!--Title-->
-                                                                        
-                                                                        
-    <!--excerpt (remove)-->
-                                                                        
-                                                                        
-                            <div class="digital-price">
-                <div class="price-details ">
-                    <span class="edd_price" id="edd_price_4060">$ 89.99</span>                </div>
-                                <div class="buy-button ">
-                    <a href="http://business-hub.cactusthemes.com/downloads/the-icon-handbook/" class="btn btn-default btn-style-1 btn-style-2 btn-style-4 imp-color-1">
-                        <div class="add-style">                                                                
-                            <span>BUY NOW</span>
-                        </div>
-                    </a>
-                </div>
-            </div>                                                      
-                
-                                                                           
-                                                                        
-        
-                                                <div class="cactus-last-child"></div> <!--fix pixel no remove-->
-                                            </div>
-                                        </div>
-                                        
-                                    </div><div class="cactus-post-item hentry slick-slide slick-active" style="width: 425px;" data-slick-index="2" aria-hidden="false">
-                                        <div class="entry-content">                                        
-                                            <!--picture (remove)-->
-                                                                                        <div class="picture">
-                                                <div class="picture-content">
-                                                    <a href="http://business-hub.cactusthemes.com/downloads/the-creative-habit/" title="SMOOTHLINE SCRIPT">
-                                                            <div class="adaptive"><img src="assets/images/business-hub-product-006-460x307.jpg" alt="business-hub-product-006" class="cactus-lazy ct-done" style="display: block;" width="460" height="307"></div>                                                        
-                                                    </a>
-                                                                                                
-                                                </div>  
-                                                                                            </div>
-                                                                                        <!--picture-->
-                                            <div class="content">
-                                                                                                <!--Title (no title remove)-->
-                                                <h3 class="h5 cactus-post-title entry-title"> 
-                                                    <a href="http://business-hub.cactusthemes.com/downloads/the-creative-habit/" title="">SMOOTHLINE SCRIPT</a> 
-                                                </h3><!--Title-->
-                                                                        
-                                                                        
-    <!--excerpt (remove)-->
-                                                                        
-                                                                        
-                            <div class="digital-price">
-                <div class="price-details ">
-                    <span class="edd_price" id="edd_price_3235">$ 69.99</span>                </div>
-                                <div class="buy-button ">
-                    <a href="http://business-hub.cactusthemes.com/downloads/the-creative-habit/" class="btn btn-default btn-style-1 btn-style-2 btn-style-4 imp-color-1">
-                        <div class="add-style">                                                                
-                            <span>BUY NOW</span>
-                        </div>
-                    </a>
-                </div>
-            </div>                                                      
-                
-                                                                           
-                                                                        
-        
-                                                <div class="cactus-last-child"></div> <!--fix pixel no remove-->
-                                            </div>
-                                        </div>
-                                        
-                                    </div><div class="cactus-post-item hentry slick-slide" style="width: 425px;" data-slick-index="3" aria-hidden="true">
-                                        <div class="entry-content">                                        
-                                            <!--picture (remove)-->
-                                                                                        <div class="picture">
-                                                <div class="picture-content">
-                                                    <a href="http://business-hub.cactusthemes.com/downloads/the-craft-of-words/" title="STEELHEART">
-                                                            <div class="adaptive"><img src="assets/images/51-460x307.jpg" alt="5" class="cactus-lazy ct-done" style="display: block;" width="460" height="307"></div>                                                        
-                                                    </a>
-                                                                                                
-                                                </div>  
-                                                                                            </div>
-                                                                                        <!--picture-->
-                                            <div class="content">
-                                                                                                <!--Title (no title remove)-->
-                                                <h3 class="h5 cactus-post-title entry-title"> 
-                                                    <a href="http://business-hub.cactusthemes.com/downloads/the-craft-of-words/" title="">STEELHEART</a> 
-                                                </h3><!--Title-->
-                                                                        
-                                                                        
-    <!--excerpt (remove)-->
-                                                                        
-                                                                        
-                            <div class="digital-price">
-                <div class="price-details ">
-                    <span class="edd_price" id="edd_price_4253">$ 81.99</span>                </div>
-                                <div class="buy-button ">
-                    <a href="http://business-hub.cactusthemes.com/downloads/the-craft-of-words/" class="btn btn-default btn-style-1 btn-style-2 btn-style-4 imp-color-1">
-                        <div class="add-style">                                                                
-                            <span>BUY NOW</span>
-                        </div>
-                    </a>
-                </div>
-            </div>                                                      
-                
-                                                                           
-                                                                        
-        
-                                                <div class="cactus-last-child"></div> <!--fix pixel no remove-->
-                                            </div>
-                                        </div>
-                                        
-                                    </div><div class="cactus-post-item hentry slick-slide" style="width: 425px;" data-slick-index="4" aria-hidden="true">
-                                        <div class="entry-content">                                        
-                                            <!--picture (remove)-->
-                                                                                        <div class="picture">
-                                                <div class="picture-content">
-                                                    <a href="http://business-hub.cactusthemes.com/downloads/world-without-words/" title="LOVETON TYPEFACE">
-                                                            <div class="adaptive"><img src="assets/images/business-hub-product-010-460x307.jpg" alt="business-hub-product-010" class="cactus-lazy ct-done" style="display: block;" width="460" height="307"></div>                                                        
-                                                    </a>
-                                                                                                
-                                                </div>  
-                                                                                            </div>
-                                                                                        <!--picture-->
-                                            <div class="content">
-                                                                                                <!--Title (no title remove)-->
-                                                <h3 class="h5 cactus-post-title entry-title"> 
-                                                    <a href="http://business-hub.cactusthemes.com/downloads/world-without-words/" title="">LOVETON TYPEFACE</a> 
-                                                </h3><!--Title-->
-                                                                        
-                                                                        
-    <!--excerpt (remove)-->
-                                                                        
-                                                                        
-                            <div class="digital-price">
-                <div class="price-details ">
-                    <span class="edd_price" id="edd_price_1842">$ 80.00</span>                </div>
-                                <div class="buy-button ">
-                    <a href="http://business-hub.cactusthemes.com/downloads/world-without-words/" class="btn btn-default btn-style-1 btn-style-2 btn-style-4 imp-color-1">
-                        <div class="add-style">                                                                
-                            <span>BUY NOW</span>
-                        </div>
-                    </a>
-                </div>
-            </div>                                                      
-                
-                                                                           
-                                                                        
-        
-                                                <div class="cactus-last-child"></div> <!--fix pixel no remove-->
-                                            </div>
-                                        </div>
-                                        
-                                    </div><div class="cactus-post-item hentry slick-slide slick-cloned" style="width: 425px;" data-slick-index="5" aria-hidden="true">
-                                        <div class="entry-content">                                        
-                                            <!--picture (remove)-->
-                                                                                        <div class="picture">
-                                                <div class="picture-content">
-                                                    <a href="http://business-hub.cactusthemes.com/downloads/monogram-symbol/" title="FOOD PACKAGING">
-                                                            <div class="adaptive"><img src="assets/images/edd-demo-02-460x307.jpg" alt="edd-demo-02" class="cactus-lazy ct-done" style="display: block;" width="460" height="307"></div>                                                        
-                                                    </a>
-                                                                                                
-                                                </div>  
-                                                                                            </div>
-                                                                                        <!--picture-->
-                                            <div class="content">
-                                                                                                <!--Title (no title remove)-->
-                                                <h3 class="h5 cactus-post-title entry-title"> 
-                                                    <a href="http://business-hub.cactusthemes.com/downloads/monogram-symbol/" title="">FOOD PACKAGING</a> 
-                                                </h3><!--Title-->
-                                                                        
-                                                                        
-    <!--excerpt (remove)-->
-                                                                        
-                                                                        
-                            <div class="digital-price">
-                <div class="price-details ">
-                    <span class="edd_price" id="">$ 79.99</span>                </div>
-                                <div class="buy-button ">
-                    <a href="http://business-hub.cactusthemes.com/downloads/monogram-symbol/" class="btn btn-default btn-style-1 btn-style-2 btn-style-4 imp-color-1">
-                        <div class="add-style">                                                                
-                            <span>BUY NOW</span>
-                        </div>
-                    </a>
-                </div>
-            </div>                                                      
-                
-                                                                           
-                                                                        
-        
-                                                <div class="cactus-last-child"></div> <!--fix pixel no remove-->
-                                            </div>
-                                        </div>
-                                        
-                                    </div><div class="cactus-post-item hentry slick-slide slick-cloned" style="width: 425px;" data-slick-index="6" aria-hidden="true">
-                                        <div class="entry-content">                                        
-                                            <!--picture (remove)-->
-                                                                                        <div class="picture">
-                                                <div class="picture-content">
-                                                    <a href="http://business-hub.cactusthemes.com/downloads/the-icon-handbook/" title="SIMPLE DEVICE">
-                                                            <div class="adaptive"><img src="assets/images/edd-demo-04-460x307.jpg" alt="edd-demo-04" class="cactus-lazy ct-done" style="display: block;" width="460" height="307"></div>                                                        
-                                                    </a>
-                                                                                                
-                                                </div>  
-                                                                                            </div>
-                                                                                        <!--picture-->
-                                            <div class="content">
-                                                                                                <!--Title (no title remove)-->
-                                                <h3 class="h5 cactus-post-title entry-title"> 
-                                                    <a href="http://business-hub.cactusthemes.com/downloads/the-icon-handbook/" title="">SIMPLE DEVICE</a> 
-                                                </h3><!--Title-->
-                                                                        
-                                                                        
-    <!--excerpt (remove)-->
-                                                                        
-                                                                        
-                            <div class="digital-price">
-                <div class="price-details ">
-                    <span class="edd_price" id="">$ 89.99</span>                </div>
-                                <div class="buy-button ">
-                    <a href="http://business-hub.cactusthemes.com/downloads/the-icon-handbook/" class="btn btn-default btn-style-1 btn-style-2 btn-style-4 imp-color-1">
-                        <div class="add-style">                                                                
-                            <span>BUY NOW</span>
-                        </div>
-                    </a>
-                </div>
-            </div>                                                      
-                
-                                                                           
-                                                                        
-        
-                                                <div class="cactus-last-child"></div> <!--fix pixel no remove-->
-                                            </div>
-                                        </div>
-                                        
-                                    </div><div class="cactus-post-item hentry slick-slide slick-cloned" style="width: 425px;" data-slick-index="7" aria-hidden="true">
-                                        <div class="entry-content">                                        
-                                            <!--picture (remove)-->
-                                                                                        <div class="picture">
-                                                <div class="picture-content">
-                                                    <a href="http://business-hub.cactusthemes.com/downloads/the-creative-habit/" title="SMOOTHLINE SCRIPT">
-                                                            <div class="adaptive"><img src="assets/images/business-hub-product-006-460x307.jpg" alt="business-hub-product-006" class="cactus-lazy ct-done" style="display: block;" width="460" height="307"></div>                                                        
-                                                    </a>
-                                                                                                
-                                                </div>  
-                                                                                            </div>
-                                                                                        <!--picture-->
-                                            <div class="content">
-                                                                                                <!--Title (no title remove)-->
-                                                <h3 class="h5 cactus-post-title entry-title"> 
-                                                    <a href="http://business-hub.cactusthemes.com/downloads/the-creative-habit/" title="">SMOOTHLINE SCRIPT</a> 
-                                                </h3><!--Title-->
-                                                                        
-                                                                        
-    <!--excerpt (remove)-->
-                                                                        
-                                                                        
-                            <div class="digital-price">
-                <div class="price-details ">
-                    <span class="edd_price" id="">$ 69.99</span>                </div>
-                                <div class="buy-button ">
-                    <a href="http://business-hub.cactusthemes.com/downloads/the-creative-habit/" class="btn btn-default btn-style-1 btn-style-2 btn-style-4 imp-color-1">
-                        <div class="add-style">                                                                
-                            <span>BUY NOW</span>
-                        </div>
-                    </a>
-                </div>
-            </div>                                                      
-                
-                                                                           
-                                                                        
-        
-                                                <div class="cactus-last-child"></div> <!--fix pixel no remove-->
-                                            </div>
-                                        </div>
-                                        
-                                    </div></div></div><button type="button" data-role="none" class="slick-next slick-arrow" aria-label="Next" role="button" style="display: inline-block;">Next</button><ul class="slick-dots" style="display: block;"><li class="slick-active" aria-hidden="false"><button type="button" data-role="none" role="button" aria-required="false" tabindex="0">1</button></li><li aria-hidden="true"><button type="button" data-role="none" role="button" aria-required="false" tabindex="0">2</button></li></ul></div>
+                                    </div>
+
+@foreach($supplies1 as $supplie)
+<div class="cactus-post-item hentry slick-slide slick-current slick-active" style="width: 425px;" data-slick-index="0" aria-hidden="false">
+  <div class="entry-content">
+    <!--picture (remove)-->
+    <div class="picture">
+      <div class="picture-content">
+        <a href="/supplies/{{ $supplie->number }}" title="Supplie {{ $supplie->number }}">
+          <div class="adaptive">
+            <img src="{{ asset('assets/images/team.jpg') }}" alt="edd-demo-02" class="cactus-lazy ct-done" style="display: block;" width="460" height="307">
+          </div>
+        </a>
+      </div>
+    </div>
+    <!--picture-->
+    
+    <div class="content">
+      <!--Title (no title remove)-->
+      <h3 class="h5 cactus-post-title entry-title">
+        <a href="/supplies/{{ $supplie->number }}" title="">{{ $supplie->number }}</a>
+      </h3>
+      <!--Title-->
+      <div class="cactus-last-child"></div>
+      <!--fix pixel no remove-->
+    </div>
+  </div>
+</div>
+@endforeach
+
+</div></div>
+
+</div>
                     </div>
                 </div>
                                                             
@@ -1180,113 +871,206 @@ best brands, including BUSINESS HUB’ own label. Plus, get your daily fix
     </div></div></div></div>
  
 
-    <div class="vc_row-full-width vc_clearfix"></div>
+<div class="vc_row-full-width vc_clearfix"></div>
 
-    <div data-vc-full-width="true" data-vc-full-width-init="true" class="vc_row wpb_row vc_row-fluid vc_custom_1450836057701" style="position: relative; left: -20px; box-sizing: border-box; width: 1354px; padding-left: 20px; padding-right: 20px;"><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner vc_custom_1450836074940"><div class="wpb_wrapper">           <div id="ct_custom_7071448882236" class="ct-sc-special-hd ct-s1">
-                <span class="ct-icon-14-sport-trophy-reward-winner-cup"></span><div class="h3 primary-title"><p>ON THE NEWS</p>
-</div><span class="sub-title">CLICK TO PLAY THE VIDEO</span>            </div> 
-        <div class="vc_empty_space" style="height: 60px"><span class="vc_empty_space_inner"></span></div>
 
-    <div class="wpb_video_widget wpb_content_element vc_clearfix   vc_video-aspect-ratio-169 vc_video-el-width-100 vc_video-align-left">
-        <div class="wpb_wrapper">
-            
-            <div class="wpb_video_wrapper"></div>
-        </div>
-    </div>
 
-    <div class="wpb_text_column wpb_content_element  vc_custom_1456999932730">
-        <div class="wpb_wrapper">
-            <p>Click on the video above to see our latest video and find out what
- is it like to work at our company. We believe you will love our culture
- too.</p>
-
-        </div>
-    </div>
-</div></div></div><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner vc_custom_1450836066655"><div class="wpb_wrapper">            <div id="ct_custom_6661448882236" class="ct-sc-special-hd ct-s1">
-                <span class="ct-icon-3-communication-bubble-chat-talk-conversation-more"></span><div class="h3 primary-title"><p>FROM OUR BLOG</p>
-</div><span class="sub-title">SEE STORIES SHARED BY OUR REAL CUSTOMERS</span>            </div> 
-        <div class="vc_empty_space" style="height: 60px"><span class="vc_empty_space_inner"></span></div>
-    <div class=" ct-sc-blog-v2 ">
-            <div class="cactus-listing-wrap">
-                <div class="cactus-listing-config  style-3 "> <!--addClass: style-1 + (style-2 -> style-n)-->
-                    <div class="cactus-sub-wrap">
-                                                <div class="cactus-post-item hentry">
-                                <div class="entry-content">
-                                                                            
-                                    <!--picture (remove)-->
-                                    <div class="picture">
-                                        <div class="picture-content">
-                                            <a href="http://business-hub.cactusthemes.com/ancient-technique-inspires-ugandas-fashion-designers/" title="INSPIRATIONAL FASHION DESIGNERS">
-                                                <img src="assets/images/apple-iphone-books-desk-460x460.jpg" class="attachment-businesshub_thumb_460x460 size-businesshub_thumb_460x460" alt="" srcset="http://business-hub.cactusthemes.com/wp-content/uploads/2010/09/apple-iphone-books-desk-460x460.jpg 460w, http://business-hub.cactusthemes.com/wp-content/uploads/2010/09/apple-iphone-books-desk-150x150.jpg 150w, http://business-hub.cactusthemes.com/wp-content/uploads/2010/09/apple-iphone-books-desk-80x80.jpg 80w, http://business-hub.cactusthemes.com/wp-content/uploads/2010/09/apple-iphone-books-desk-160x160.jpg 160w" sizes="(max-width: 460px) 100vw, 460px" width="460" height="460">                                                        
-                                            </a>                                                        
-                                        </div>
-                                                                                    <div class="note-date-v1">Dec 26</div>
-                                                  
-                                    </div>
-                                    <!--picture-->
-                                                                        <div class="content">
-                                        <div class="categories">
-                                            <a class="cactus-note-cat" href="http://business-hub.cactusthemes.com/category/design/" title="View all posts in DESIGN">DESIGN</a>                                        </div>
-                                        
-                                        <!--Title (no title remove)-->
-                                        <h3 class="h5 cactus-post-title entry-title"> 
-                                            <a href="http://business-hub.cactusthemes.com/ancient-technique-inspires-ugandas-fashion-designers/" title="">INSPIRATIONAL FASHION DESIGNERS</a> 
-                                        </h3><!--Title-->
-                                    
-                                        <!--excerpt (remove)-->
-                                        <div class="excerpt">
-                                             To take a trivial example 
-which of us ever undertakes laborious increases meaning physical 
-exercise except to obtain some advantage from it.                       
-                 </div><!--excerpt-->    
-                                                                                <div class="cactus-last-child"></div> <!--fix pixel no remove-->
-                                    </div>
-                                    
-                                </div>
-                                
-                            </div><!--item listing-->
-                                                        <div class="cactus-post-item hentry">
-                                <div class="entry-content">
-                                                                            
-                                    <!--picture (remove)-->
-                                    <div class="picture">
-                                        <div class="picture-content">
-                                            <a href="http://business-hub.cactusthemes.com/smaller-computer-chips-built-using-dna-as-template/" title="UKUKU – PORTFOLIO TEMPLATE">
-                                                <img src="assets/images/2-460x460.jpg" class="attachment-businesshub_thumb_460x460 size-businesshub_thumb_460x460" alt="" srcset="http://business-hub.cactusthemes.com/wp-content/uploads/2015/12/2-460x460.jpg 460w, http://business-hub.cactusthemes.com/wp-content/uploads/2015/12/2-150x150.jpg 150w, http://business-hub.cactusthemes.com/wp-content/uploads/2015/12/2-300x300.jpg 300w, http://business-hub.cactusthemes.com/wp-content/uploads/2015/12/2-768x768.jpg 768w, http://business-hub.cactusthemes.com/wp-content/uploads/2015/12/2-920x920.jpg 920w, http://business-hub.cactusthemes.com/wp-content/uploads/2015/12/2-80x80.jpg 80w, http://business-hub.cactusthemes.com/wp-content/uploads/2015/12/2-160x160.jpg 160w, http://business-hub.cactusthemes.com/wp-content/uploads/2015/12/2.jpg 1000w" sizes="(max-width: 460px) 100vw, 460px" width="460" height="460">                                                        
-                                            </a>                                                        
-                                        </div>
-                                                                                    <div class="note-date-v1">Dec 26</div>
-                                                  
-                                    </div>
-                                    <!--picture-->
-                                                                        <div class="content">
-                                        <div class="categories">
-                                            <a class="cactus-note-cat" href="http://business-hub.cactusthemes.com/category/design/" title="View all posts in DESIGN">DESIGN</a>                                        </div>
-                                        
-                                        <!--Title (no title remove)-->
-                                        <h3 class="h5 cactus-post-title entry-title"> 
-                                            <a href="http://business-hub.cactusthemes.com/smaller-computer-chips-built-using-dna-as-template/" title="">UKUKU – PORTFOLIO TEMPLATE</a> 
-                                        </h3><!--Title-->
-                                    
-                                        <!--excerpt (remove)-->
-                                        <div class="excerpt">
-                                            Parents who are older and 
-who have older children tend to be happier given that they are 
-relatively more mature and undertakes laborious physical financially 
-stable.                                        </div><!--excerpt-->    
-                                                                                <div class="cactus-last-child"></div> <!--fix pixel no remove-->
-                                    </div>
-                                    
-                                </div>
-                                
-                            </div><!--item listing-->
-                                                </div>
-    
-                    
+<div data-vc-full-width="true" data-vc-full-width-init="true" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_custom_1457600876804" style="position: relative; left: 0px; box-sizing: border-box; width: 1354px; padding-bottom: 50px !important"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper">        <div class="ct-ft-gallery shortcode archive " data-item="5" data-auto-play="0" data-auto-play-speed="5000">
+            <div class="ct-post-gallery">
+                <div class="cactus-listing-wrap">
+                    <div class="cactus-listing-config style-2"> <!--addClass: style-1 + (style-2 -> style-n)-->
+                              
+                        <div class="cactus-sub-wrap ct-post-gallery-wrapper slick-initialized slick-slider"><button type="button" data-role="none" class="slick-prev slick-arrow" aria-label="Previous" role="button" style="display: inline-block;">Previous</button>
+                                                            <!--item listing-->
+                                    <!--item listing-->
+                                                                        <!--item listing-->
+                                    <!--item listing-->
+                                                                        <!--item listing-->
+                                    <!--item listing-->
+                                                                        <!--item listing-->
+                                    <!--item listing-->
+                                                                        <!--item listing-->
+                                    <!--item listing-->
+                                                                
+                        <div aria-live="polite" class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 4675px; transform: translate3d(-1275px, 0px, 0px);"><div class="cactus-post-item hentry slick-slide slick-cloned" style="width: 425px;" data-slick-index="-3" aria-hidden="true">
+                                        <div class="entry-content">                                        
+                                            <!--picture (remove)-->
+                                                                                        <div class="picture">
+                                                <div class="picture-content">
+                                                    <a href="/" title="SMOOTHLINE SCRIPT">
+                                                            <div class="adaptive"><img src="assets/images/business-hub-product-006-460x307.jpg" alt="business-hub-product-006" class="cactus-lazy ct-done" style="display: block;" width="460" height="307"></div>                                                        
+                                                    </a>
+                                                                                                
+                                                </div>  
+                                                                                            </div>
+                                                                                        <!--picture-->
+                                            <div class="content">
+                                                                                                <!--Title (no title remove)-->
+                                                <h3 class="h5 cactus-post-title entry-title"> 
+                                                    <a href="/" title="">SMOOTHLINE SCRIPT</a> 
+                                                </h3><!--Title-->
+                                                                        
+                                                                        
+    <!--excerpt (remove)-->
+                                                                        
+                                                                        
+                            <div class="digital-price">
+                <div class="price-details ">
+                    <span class="edd_price" id="">$ 69.99</span>                </div>
+                                <div class="buy-button ">
+                    <a href="/" class="btn btn-default btn-style-1 btn-style-2 btn-style-4 imp-color-1">
+                        <div class="add-style">                                                                
+                            <span>BUY NOW</span>
+                        </div>
+                    </a>
                 </div>
+            </div>                                                      
+                
+                                                                           
+                                                                        
+        
+                                                <div class="cactus-last-child"></div> <!--fix pixel no remove-->
+                                            </div>
+                                        </div>
+                                        
+                                    </div><div class="cactus-post-item hentry slick-slide slick-cloned" style="width: 425px;" data-slick-index="-2" aria-hidden="true">
+                                        <div class="entry-content">                                        
+                                            <!--picture (remove)-->
+                                                                                        <div class="picture">
+                                                <div class="picture-content">
+                                                    <a href="/" title="STEELHEART">
+                                                            <div class="adaptive"><img src="assets/images/51-460x307.jpg" alt="5" class="cactus-lazy ct-done" style="display: block;" width="460" height="307"></div>                                                        
+                                                    </a>
+                                                                                                
+                                                </div>  
+                                                                                            </div>
+                                                                                        <!--picture-->
+                                            <div class="content">
+                                                                                                <!--Title (no title remove)-->
+                                                <h3 class="h5 cactus-post-title entry-title"> 
+                                                    <a href="/" title="">STEELHEART</a> 
+                                                </h3><!--Title-->
+                                                                        
+                                                                        
+    <!--excerpt (remove)-->
+                                                                        
+                                                                        
+                            <div class="digital-price">
+                <div class="price-details ">
+                    <span class="edd_price" id="">$ 81.99</span>                </div>
+                                <div class="buy-button ">
+                    <a href="/" class="btn btn-default btn-style-1 btn-style-2 btn-style-4 imp-color-1">
+                        <div class="add-style">                                                                
+                            <span>BUY NOW</span>
+                        </div>
+                    </a>
+                </div>
+            </div>                                                      
+                
+                                                                           
+                                                                        
+        
+                                                <div class="cactus-last-child"></div> <!--fix pixel no remove-->
+                                            </div>
+                                        </div>
+                                        
+                                    </div><div class="cactus-post-item hentry slick-slide slick-cloned" style="width: 425px;" data-slick-index="-1" aria-hidden="true">
+                                        <div class="entry-content">                                        
+                                            <!--picture (remove)-->
+                                                                                        <div class="picture">
+                                                <div class="picture-content">
+                                                    <a href="/" title="LOVETON TYPEFACE">
+                                                            <div class="adaptive"><img src="assets/images/business-hub-product-010-460x307.jpg" alt="business-hub-product-010" class="cactus-lazy ct-done" style="display: block;" width="460" height="307"></div>                                                        
+                                                    </a>
+                                                                                                
+                                                </div>  
+                                                                                            </div>
+                                                                                        <!--picture-->
+                                            <div class="content">
+                                                                                                <!--Title (no title remove)-->
+                                                <h3 class="h5 cactus-post-title entry-title"> 
+                                                    <a href="/" title="">LOVETON TYPEFACE</a> 
+                                                </h3><!--Title-->
+                                                                        
+                                                                        
+    <!--excerpt (remove)-->
+                                                                        
+                                                                        
+                            <div class="digital-price">
+                <div class="price-details ">
+                    <span class="edd_price" id="">$ 80.00</span>                </div>
+                                <div class="buy-button ">
+                    <a href="/" class="btn btn-default btn-style-1 btn-style-2 btn-style-4 imp-color-1">
+                        <div class="add-style">                                                                
+                            <span>BUY NOW</span>
+                        </div>
+                    </a>
+                </div>
+            </div>                                                      
+                
+                                                                           
+                                                                        
+        
+                                                <div class="cactus-last-child"></div> <!--fix pixel no remove-->
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+
+@foreach($supplies2 as $supplie)
+<div class="cactus-post-item hentry slick-slide slick-current slick-active" style="width: 425px;" data-slick-index="0" aria-hidden="false">
+  <div class="entry-content">
+    <!--picture (remove)-->
+    <div class="picture">
+      <div class="picture-content">
+        <a href="/supplies/{{ $supplie->number }}" title="Supplie {{ $supplie->number }}">
+          <div class="adaptive">
+            <img src="{{ asset('assets/images/team.jpg') }}" alt="edd-demo-02" class="cactus-lazy ct-done" style="display: block;" width="460" height="307">
+          </div>
+        </a>
+      </div>
+    </div>
+    <!--picture-->
+    
+    <div class="content">
+      <!--Title (no title remove)-->
+      <h3 class="h5 cactus-post-title entry-title">
+        <a href="/supplies/{{ $supplie->number }}" title="">{{ $supplie->number }}</a>
+      </h3>
+      <!--Title-->
+      <div class="cactus-last-child"></div>
+      <!--fix pixel no remove-->
+    </div>
+  </div>
+</div>
+@endforeach
+
+</div></div>
+
+</div>
+                    </div>
+                </div>
+                                                            
+                <div class="cactus-slider-button-prev" style="display: none;"></div>
+                <div class="cactus-slider-button-next" style="display: none;"></div>
             </div>
-        </div> 
-    </div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><div data-vc-full-width="true" data-vc-full-width-init="true" class="vc_row wpb_row vc_row-fluid vc_custom_1448881999421 vc_row-has-fill" style="position: relative; left: -20px; box-sizing: border-box; width: 1354px; padding-left: 20px; padding-right: 20px;"><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner vc_custom_1454063188935"><div class="wpb_wrapper">  
+            <div class="cactus-slider-paper"></div>
+        </div>    
+    
+    </div></div></div></div>
+ 
+
+<div class="vc_row-full-width vc_clearfix"></div>
+
+
+
+
+
+
+
+
+
+<div data-vc-full-width="true" data-vc-full-width-init="true" class="vc_row wpb_row vc_row-fluid vc_custom_1448881999421 vc_row-has-fill" style="position: relative; left: -20px; box-sizing: border-box; width: 1354px; padding-left: 20px; padding-right: 20px;"><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner vc_custom_1454063188935"><div class="wpb_wrapper">  
 <div id="c_testimonials_526" class="ct-ft-gallery shortcode ct-testi" data-auto-play="0" data-auto-play-speed="5000">
     <div class="ct-post-gallery">
         <ul class="ct-post-gallery-wrapper slick-initialized slick-slider">
@@ -1307,10 +1091,9 @@ stable.                                        </div><!--excerpt-->
                                     </div>
                                 <div class="testi-content">
                     
-                    <div class="testi-excerpt"><p>Awesome, Incredibly organized, easy to communicate with, responsive with next iterations, and beautiful work.</p>
+                    <div class="testi-excerpt"><p>Impresionante, increíblemente organizados, fácil de comunicarse, receptivo con las próximas iteraciones y un trabajo hermoso.</p>
 </div>                        
-                    <div class="testi-author"><h6>JOHN DOE</h6></div>                    
-                     <div class="testi-author-sub">CEO Apple Inc</div>                
+                    <div class="testi-author"><h6>RAUL SANCHEZ</h6></div>                    
                 </div>
     
             </div>
@@ -1344,10 +1127,9 @@ stable.                                        </div><!--excerpt-->
                                     </div>
                                 <div class="testi-content">
                     
-                    <div class="testi-excerpt"><p>I love the new logo. Particularly how the mark can stand on its own. It feels tall and proud and powerful.</p>
+                    <div class="testi-excerpt"><p>Me encanta el nuevo logo. En particular, cómo la marca puede mantenerse por sí sola. Se siente alto, orgulloso y poderoso.</p>
 </div>                        
-                    <div class="testi-author"><h6>CAROLIN MEYER</h6></div>                    
-                     <div class="testi-author-sub">CIO, Pinebank</div>                
+                    <div class="testi-author"><h6>DIANA MAESTRE</h6></div>                    
                 </div>
     
             </div>
@@ -1378,267 +1160,19 @@ stable.                                        </div><!--excerpt-->
     </div>
 </div>            
 
-            <footer>
-                                <div class="footer-label dark-div">
-                    <div class="f-label-content ft-social">
-                                <ul class="social-accounts  social-listing list-inline mini-custom ">
-                        <li class="facebook"><a target="_blank" href="#" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-                                                    <li class="twitter"><a target="_blank" href="#" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                                                                <li class="google-plus"><a target="_blank" href="#" title="Google Plus"><i class="fa fa-google-plus"></i></a></li>
-                                                                                        </ul>
-                            </div>
-                </div>
-                            
-                <div class="footer-inner dark-div">        
-                
-                  <div class="footer-sidebar">
-                    <div class="container container-1340">
-                      <div class="row control-sidebar">
-                      
-                         <aside id="text-15" class=" col-md-3 widget widget_text module widget-col"><div class="widget-inner"><h2 class="widget-title h4">ABOUT US</h2>         <div class="textwidget"><p style="margin-bottom: 20px;">In
- 1995, BusinessHub Fund was established as an independent charitable 
-organisation. The fund does humanitarian work and supports various 
-cultural initiatives in US and abroad. Sed ut perspiciatis unde omnis 
-iste natus error sit voluptatem accusantium. It works to secure a 
-sustainable.</p>
-            
-        <a id="ct_custom_4671444191128" href="#" class="btn btn-default  btn-style-1 btn-style-2 btn-style-4  ">
-            <span class="add-style">
-                <span class="ct-icon-1-document-article-news-newspaper"></span> 
-                <span>   BROCHURE</span>            </span>    
-        </a>
-                
-        </div>
-        </div></aside><aside id="nav_menu-4" class=" col-md-3 widget widget_nav_menu module widget-col"><div class="widget-inner"><h2 class="widget-title h4">PRODUCTS</h2><div class="menu-edd-products-footer-container"><ul id="menu-edd-products-footer" class="menu"><li id="menu-item-7408" class="menu-item menu-item-type-post_type menu-item-object-download menu-item-7408"><a href="http://business-hub.cactusthemes.com/downloads/interaction-design/">APPLE WATCH MOCKUP</a></li>
-<li id="menu-item-7409" class="menu-item menu-item-type-post_type menu-item-object-download menu-item-7409"><a href="http://business-hub.cactusthemes.com/downloads/monogram-symbol/">FOOD PACKAGING</a></li>
-<li id="menu-item-7410" class="menu-item menu-item-type-post_type menu-item-object-download menu-item-7410"><a href="http://business-hub.cactusthemes.com/downloads/logo-creed/">IPAD PRO MOCKUP</a></li>
-<li id="menu-item-7411" class="menu-item menu-item-type-post_type menu-item-object-download menu-item-7411"><a href="http://business-hub.cactusthemes.com/downloads/the-icon-handbook/">SIMPLE DEVICE</a></li>
-<li id="menu-item-7412" class="menu-item menu-item-type-post_type menu-item-object-download menu-item-7412"><a href="http://business-hub.cactusthemes.com/downloads/fast-and-slow/">A4 PSD MOCKUP</a></li>
-<li id="menu-item-7413" class="menu-item menu-item-type-post_type menu-item-object-download menu-item-7413"><a href="http://business-hub.cactusthemes.com/downloads/the-craft-of-words/">STEELHEART</a></li>
-<li id="menu-item-7414" class="menu-item menu-item-type-post_type menu-item-object-download menu-item-7414"><a href="http://business-hub.cactusthemes.com/downloads/the-creative-habit/">SMOOTHLINE SCRIPT</a></li>
-</ul></div></div></aside><aside id="text-13" class=" col-md-3 widget widget_text module widget-col"><div class="widget-inner"><h2 class="widget-title h4">NEWSLETTER</h2>           <div class="textwidget">Join
- the BusinessHub Customer Club and receive the latest news, new 
-arrivals, promo and special offers from your favourite company. So 
-please do not wait and subscribe to our weekly newsletter right now. It 
-is totally free from spam.
+          
 
-<div role="form" class="wpcf7" id="wpcf7-f1707-o1" dir="ltr" lang="en-US">
-<div class="screen-reader-response"></div>
-<form action="/#wpcf7-f1707-o1" method="post" class="wpcf7-form" novalidate="novalidate">
-<div style="display: none;">
-<input type="hidden" name="_wpcf7" value="1707">
-<input type="hidden" name="_wpcf7_version" value="4.4.1">
-<input type="hidden" name="_wpcf7_locale" value="en_US">
-<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f1707-o1">
-<input type="hidden" name="_wpnonce" value="d237513ea7">
-</div>
-<p><span class="wpcf7-form-control-wrap your-name"><input type="text" name="your-name" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Your Email"></span> <input type="submit" value="SUBSCRIBE" class="wpcf7-form-control wpcf7-submit"><img class="ajax-loader" src="assets/images/ajax-loader.gif" alt="Sending ..." style="visibility: hidden;"></p>
-<div class="wpcf7-response-output wpcf7-display-none"></div></form></div></div>
-        </div></aside><aside id="text-29" class=" col-md-3 widget widget_text module widget-col"><div class="widget-inner"><h2 class="widget-title h4">WORKING TIMES</h2>           <div class="textwidget">    
-<div id="c_schedule_3394" class="ct-sc-schedule-box">
-    <div class="ct-sc-schedule-box-content">
-                <div class="ct-sc-schedule-box-table">
-            <div class="ct-sc-schedule-box-cell">
-                <div><i class="fa fa-clock-o"></i>MONDAY</div>            </div>
-            <div class="ct-sc-schedule-box-cell">
-                <div>9AM – 6PM</div>            </div>
-        </div>
-            <div class="ct-sc-schedule-box-table">
-            <div class="ct-sc-schedule-box-cell">
-                <div><i class="fa fa-clock-o"></i>TUESDAY</div>            </div>
-            <div class="ct-sc-schedule-box-cell">
-                <div>9AM – 6PM</div>            </div>
-        </div>
-            <div class="ct-sc-schedule-box-table">
-            <div class="ct-sc-schedule-box-cell">
-                <div><i class="fa fa-clock-o"></i>WEDNESDAY</div>            </div>
-            <div class="ct-sc-schedule-box-cell">
-                <div>9AM – 5PM</div>            </div>
-        </div>
-            <div class="ct-sc-schedule-box-table">
-            <div class="ct-sc-schedule-box-cell">
-                <div><i class="fa fa-clock-o"></i>THURSDAY</div>            </div>
-            <div class="ct-sc-schedule-box-cell">
-                <div>8AM - 6PM</div>            </div>
-        </div>
-            <div class="ct-sc-schedule-box-table">
-            <div class="ct-sc-schedule-box-cell">
-                <div><i class="fa fa-clock-o"></i>FRIDAY</div>            </div>
-            <div class="ct-sc-schedule-box-cell">
-                <div>8AM - 6PM</div>            </div>
-        </div>
-            <div class="ct-sc-schedule-box-table">
-            <div class="ct-sc-schedule-box-cell">
-                <div><i class="fa fa-clock-o"></i>SAT &amp; SUN</div>            </div>
-            <div class="ct-sc-schedule-box-cell">
-                <div>CLOSED</div>            </div>
-        </div>
-        </div>
-</div>
-    
-</div>
-        </div></aside>                        
-                      </div>
-                    </div>
-                  </div>
-                  
-                </div>
-                
-                <div class="footer-info dark-div">
-                  <div class="container container-1340">
-                      <div class="row">                        
-                          <div class="col-md-6 col-sm-6 copyright font-1">©2016 CactusThemes.com - Beautiful and Functional Wordpress Themes</div>
-                          <div class="col-md-6 col-sm-6 link font-1">
-                              <div class="menu-footer-menu-container">
-                                  <ul id="menu-footer-menu" class="menu">
-                                        <li id="menu-item-4895" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-4895"><a href="http://business-hub.cactusthemes.com/">HOME</a></li>
-<li id="menu-item-5330" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5330"><a href="#">ABOUT</a></li>
-<li id="menu-item-5331" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5331"><a href="#">SITE MAP</a></li>
-<li id="menu-item-4897" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4897"><a href="http://business-hub.cactusthemes.com/contact/">CONTACT US</a></li>
-<li id="menu-item-5329" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5329"><a href="#">MORE THEMES</a></li>
-                                  </ul>
-                               </div>
-                          </div>
-                      </div>
-                  </div>
-                </div>
-            </footer>
+
+
+
+
+
+
+<!-- footer -->
+@include('partials.footer')
+<!-- footer -->
             
         </div><!--#wrap-->
-        
-        <!--Menu moblie-->
-          <div class="canvas-ovelay"></div>
-          <div id="off-canvas" class="off-canvas-default heading-font-1 dark-div">
-              <div class="off-canvas-inner">
-                <div class="close-canvas-menu"></div>
-                <nav class="off-menu">
-                  <ul><li id="menu-item-1636" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home current-menu-ancestor current-menu-parent menu-item-has-children parent menu-item-1636"><a href="http://business-hub.cactusthemes.com/">HOME</a>
-<ul class="sub-menu hidden">
-    <li id="menu-item-3331" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3331"><a href="http://business-hub.cactusthemes.com/homepage-v1/">MAIN DEMO</a></li>
-    <li id="menu-item-3330" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3330"><a href="http://business-hub.cactusthemes.com/homepage-v2/">CLASSIC BUSINESS</a></li>
-    <li id="menu-item-3329" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3329"><a href="http://business-hub.cactusthemes.com/homepage-v3/">MODERN BUSINESS</a></li>
-    <li id="menu-item-4894" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-4469 current_page_item menu-item-4894"><a href="http://business-hub.cactusthemes.com/">DIGITAL SHOP</a></li>
-    <li id="menu-item-3328" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3328"><a href="http://business-hub.cactusthemes.com/homepage-v5/">APP LANDING PAGE 1</a></li>
-    <li id="menu-item-3327" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3327"><a href="http://business-hub.cactusthemes.com/homepage-v6/">APP LANDING PAGE 3</a></li>
-    <li id="menu-item-8913" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children parent menu-item-8913"><a href="#">MY ACCOUNT</a>
-    <ul class="sub-menu">
-        <li id="menu-item-8910" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8910"><a href="http://business-hub.cactusthemes.com/register/">REGISTER</a></li>
-        <li id="menu-item-8908" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8908"><a href="http://business-hub.cactusthemes.com/resetpass/">RESET PASSWORD</a></li>
-        <li id="menu-item-8909" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8909"><a href="http://business-hub.cactusthemes.com/lostpassword/">LOST PASSWORD</a></li>
-        <li id="menu-item-8912" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8912"><a href="http://business-hub.cactusthemes.com/login/">LOG IN</a></li>
-    </ul>
-</li>
-</ul>
-<i class="fa fa-angle-down"></i></li>
-<li id="menu-item-4155" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children parent menu-item-4155"><a href="#">PLUGINS SUPPORTED</a>
-<ul class="sub-menu hidden">
-    <li id="menu-item-9236" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children parent menu-item-9236"><a href="#">EASY DIGITAL DOWNLOADS</a>
-    <ul class="sub-menu">
-        <li id="menu-item-4137" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4137"><a href="http://business-hub.cactusthemes.com/products-listing/">LIST FULLWIDTH</a></li>
-        <li id="menu-item-8055" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8055"><a href="http://business-hub.cactusthemes.com/digital-products/">LIST WIDE</a></li>
-        <li id="menu-item-8056" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8056"><a href="http://business-hub.cactusthemes.com/product-edd-list-with-sidebar/">LIST SIDEBAR</a></li>
-        <li id="menu-item-7424" class="menu-item menu-item-type-post_type menu-item-object-download menu-item-7424"><a href="http://business-hub.cactusthemes.com/downloads/monogram-symbol/">PRODUCT DETAILS V1</a></li>
-        <li id="menu-item-8849" class="menu-item menu-item-type-post_type menu-item-object-download menu-item-8849"><a href="http://business-hub.cactusthemes.com/downloads/interaction-design/">PRODUCT DETAILS V2</a></li>
-        <li id="menu-item-7511" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7511"><a href="http://business-hub.cactusthemes.com/downloads/logo-creed/">POINT RATING</a></li>
-        <li id="menu-item-7512" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7512"><a href="http://business-hub.cactusthemes.com/downloads/monogram-symbol/">STAR RATING</a></li>
-        <li id="menu-item-6378" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6378"><a href="http://business-hub.cactusthemes.com/products-cart/">SHOPPING CART</a></li>
-        <li id="menu-item-6377" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6377"><a href="http://business-hub.cactusthemes.com/products-checkout/">CHECKOUT</a></li>
-        <li id="menu-item-8809" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8809"><a href="http://business-hub.cactusthemes.com/edd-payment-history/">EDD PAYMENT HISTORY</a></li>
-    </ul>
-</li>
-    <li id="menu-item-9235" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children parent menu-item-9235"><a href="#">WOOCOMMERCE</a>
-    <ul class="sub-menu">
-        <li id="menu-item-9241" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9241"><a href="http://business-hub.cactusthemes.com/shop/">WOO SHOP</a></li>
-    </ul>
-</li>
-    <li id="menu-item-9267" class="menu-item menu-item-type-post_type_archive menu-item-object-forum menu-item-9267"><a href="http://business-hub.cactusthemes.com/forums/">BBPRESS</a></li>
-</ul>
-<i class="fa fa-angle-down"></i></li>
-<li id="menu-item-6328" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children parent menu-item-6328"><a href="#">PROJECTS</a>
-<ul class="sub-menu hidden">
-    <li id="menu-item-7921" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7921"><a href="http://business-hub.cactusthemes.com/portfolio/?layout=classic">PORTFOLIO 1</a></li>
-    <li id="menu-item-7922" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7922"><a href="http://business-hub.cactusthemes.com/portfolio/?layout=modern">PORTFOLIO 2</a></li>
-    <li id="menu-item-7923" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7923"><a href="http://business-hub.cactusthemes.com/portfolio/?layout=modern-square">PORTFOLIO 3</a></li>
-    <li id="menu-item-8077" class="menu-item menu-item-type-post_type menu-item-object-ct_portfolio menu-item-8077"><a href="http://business-hub.cactusthemes.com/portfolio/patagonia-dreaming-i/">SINGLE PROJECT 1</a></li>
-    <li id="menu-item-8072" class="menu-item menu-item-type-post_type menu-item-object-ct_portfolio menu-item-8072"><a href="http://business-hub.cactusthemes.com/portfolio/brothers-grimms-new-book/">SINGLE PROJECT 2</a></li>
-    <li id="menu-item-8059" class="menu-item menu-item-type-post_type menu-item-object-ct_portfolio menu-item-8059"><a href="http://business-hub.cactusthemes.com/portfolio/grand-openning/">SINGLE PROJECT 3</a></li>
-    <li id="menu-item-8063" class="menu-item menu-item-type-post_type menu-item-object-ct_portfolio menu-item-8063"><a href="http://business-hub.cactusthemes.com/portfolio/illustrations-for-cocoon-luxury-wear/">SINGLE PROJECT 4</a></li>
-    <li id="menu-item-6360" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6360"><a href="http://business-hub.cactusthemes.com/portfolio/plus-renewable/">VIDEO PROJECT 1</a></li>
-    <li id="menu-item-6361" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6361"><a href="http://business-hub.cactusthemes.com/portfolio/advertising-campaign-map/">VIDEO PROJECT 2</a></li>
-</ul>
-<i class="fa fa-angle-down"></i></li>
-<li id="menu-item-5661" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children parent menu-item-5661"><a href="#">FEATURES</a>
-<ul class="sub-menu hidden">
-    <li id="menu-item-8422" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8422"><a href="http://business-hub.cactusthemes.com/blog/">BLOG</a></li>
-    <li id="menu-item-8523" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children parent menu-item-8523"><a href="#">HEADERS</a>
-    <ul class="sub-menu">
-        <li id="menu-item-6353" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6353"><a href="http://business-hub.cactusthemes.com/header-style-1/">HEADER 1</a></li>
-        <li id="menu-item-6856" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6856"><a href="http://business-hub.cactusthemes.com/header-style-2/">HEADER 2</a></li>
-        <li id="menu-item-6354" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6354"><a href="http://business-hub.cactusthemes.com/header-style-3/">HEADER 3</a></li>
-        <li id="menu-item-6851" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6851"><a href="http://business-hub.cactusthemes.com/header-style-4/">HEADER 4</a></li>
-        <li id="menu-item-6356" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6356"><a href="http://business-hub.cactusthemes.com/header-style-5/">HIDDEN HEADER</a></li>
-    </ul>
-</li>
-    <li id="menu-item-6418" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6418"><a href="http://business-hub.cactusthemes.com/job-listing/">JOB LIST</a></li>
-    <li id="menu-item-6424" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6424"><a href="http://business-hub.cactusthemes.com/job/full-stack-web-developer/">JOB DETAILS</a></li>
-    <li id="menu-item-6419" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6419"><a href="http://business-hub.cactusthemes.com/contact/">CONTACT US</a></li>
-    <li id="menu-item-6420" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6420"><a href="http://business-hub.cactusthemes.com/404-2/">404</a></li>
-</ul>
-<i class="fa fa-angle-down"></i></li>
-<li id="menu-item-4795" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children parent menu-item-4795"><a href="#">SHORTCODES</a>
-<ul class="sub-menu hidden">
-    <li id="menu-item-2845" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children parent menu-item-2845"><a href="#">LAYOUT</a>
-    <ul class="sub-menu">
-        <li id="menu-item-2125" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2125"><a href="http://business-hub.cactusthemes.com/shortcode-grid/">GRID</a></li>
-        <li id="menu-item-8481" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8481"><a href="http://business-hub.cactusthemes.com/shortcode-blog/">GRID BLOG</a></li>
-        <li id="menu-item-8482" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8482"><a href="http://business-hub.cactusthemes.com/list-blog/">LIST BLOG</a></li>
-        <li id="menu-item-2121" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2121"><a href="http://business-hub.cactusthemes.com/shortcode-button/">BUTTON</a></li>
-        <li id="menu-item-2141" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2141"><a href="http://business-hub.cactusthemes.com/shortcode-counter/">COUNTER</a></li>
-        <li id="menu-item-8468" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8468"><a href="http://business-hub.cactusthemes.com/shortcode-heading/">HEADINGS</a></li>
-    </ul>
-</li>
-    <li id="menu-item-2846" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children parent menu-item-2846"><a href="#">CONTENT</a>
-    <ul class="sub-menu">
-        <li id="menu-item-2212" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2212"><a href="http://business-hub.cactusthemes.com/shortcode-story/">STORY</a></li>
-        <li id="menu-item-2211" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2211"><a href="http://business-hub.cactusthemes.com/shortcode-testimonials/">TESTIMONIALS</a></li>
-        <li id="menu-item-2559" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2559"><a href="http://business-hub.cactusthemes.com/shortcode-simpe-showcase/">SIMPLE SHOWCASE</a></li>
-        <li id="menu-item-2695" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2695"><a href="http://business-hub.cactusthemes.com/shortcode-feature-showcases-2/">FEATURE SHOWCASE</a></li>
-        <li id="menu-item-2213" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2213"><a href="http://business-hub.cactusthemes.com/shortcode-image-showcase/">IMAGE SHOWCASE</a></li>
-        <li id="menu-item-6911" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6911"><a href="http://business-hub.cactusthemes.com/shortcode-post-carousel/">POST CAROUSEL</a></li>
-    </ul>
-</li>
-    <li id="menu-item-2847" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children parent menu-item-2847"><a href="#">BOXES</a>
-    <ul class="sub-menu">
-        <li id="menu-item-2591" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2591"><a href="http://business-hub.cactusthemes.com/shortcode-banner-2/">BANNER</a></li>
-        <li id="menu-item-2589" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2589"><a href="http://business-hub.cactusthemes.com/shortcode-iconbox/">ICONBOX</a></li>
-        <li id="menu-item-2694" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2694"><a href="http://business-hub.cactusthemes.com/shortcode-contentbox/">CONTENTBOX</a></li>
-        <li id="menu-item-9383" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9383"><a href="http://business-hub.cactusthemes.com/shortcode-partners-2/">PARTNERS</a></li>
-        <li id="menu-item-9247" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9247"><a href="http://business-hub.cactusthemes.com/shortcode-member/">MEMBERS</a></li>
-        <li id="menu-item-9248" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9248"><a href="http://business-hub.cactusthemes.com/shortcode-parallax/">PARALLAX</a></li>
-    </ul>
-</li>
-    <li id="menu-item-9254" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children parent menu-item-9254"><a href="#">OTHERS</a>
-    <ul class="sub-menu">
-        <li id="menu-item-9249" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9249"><a href="http://business-hub.cactusthemes.com/shortcode-accordion/">ACCORDIONS</a></li>
-        <li id="menu-item-9259" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9259"><a href="http://business-hub.cactusthemes.com/compare-table/">PRICING TABLE</a></li>
-        <li id="menu-item-9260" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9260"><a href="http://business-hub.cactusthemes.com/shortcode-tab/">TAB</a></li>
-        <li id="menu-item-9261" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9261"><a href="http://business-hub.cactusthemes.com/shortcode-tooltip/">TOOLTIPS</a></li>
-        <li id="menu-item-9262" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9262"><a href="http://business-hub.cactusthemes.com/shortcode-schedule/">SCHEDULE</a></li>
-    </ul>
-</li>
-</ul>
-<i class="fa fa-angle-down"></i></li>
-</ul>                </nav>
-                
-                <div class="header-sidebar-mobile">                 
-                <aside id="text-17" class=" col-md-12 widget_text widget col-md-12 widget-col nav navbar-nav header-top-info hidden-xs"><div class="widget-inner">          <div class="textwidget"><p style="float:left; padding: 0px;">SAVE 20% FOR YOUR NEXT PURCHASE</p><p class="home-v5-2" style="float:left; padding: 0px 0px 0px 40px; color:#ffd800;">         
-        <span id="ct-c-timer-497" class="countdown-time shortcode is-countdown" data-years-text="YRS" data-months-text="MTHS" data-days-text="DAYS" data-hours-text="HRS" data-minutes-text="MINS" data-seconds-text="SECS" data-countdown="2022/8/15 23:0:0"><span class="countdown-row countdown-show6"><span class="countdown-section"><span class="countdown-amount">1</span><span class="countdown-period">YRS</span></span><span class="countdown-section"><span class="countdown-amount">10</span><span class="countdown-period">MTHS</span></span><span class="countdown-section"><span class="countdown-amount">20</span><span class="countdown-period">DAYS</span></span><span class="countdown-section"><span class="countdown-amount">13</span><span class="countdown-period">HRS</span></span><span class="countdown-section"><span class="countdown-amount">32</span><span class="countdown-period">MINS</span></span><span class="countdown-section"><span class="countdown-amount">33</span><span class="countdown-period">SECS</span></span></span></span>
-        </p></div>
-        </div></aside></div>
-                
-              </div>
-            </div>
-        <!--Menu moblie-->
         
         <div class="go-to-top" style="margin-bottom: 0px;"> 
             <i class="fa fa-angle-up"></i>
@@ -1768,96 +1302,5 @@ is totally free from spam.
             <path d="m494 185c0 4-3 9-8 14l-103 101l24 143c0 1 0 3 0 5c0 4-1 8-3 10c-2 3-4 5-8 5c-4 0-8-2-12-4l-128-67l-128 67c-4 2-8 4-12 4c-4 0-7-2-9-5c-2-2-3-6-3-10c0-1 0-3 1-5l24-143l-104-101c-4-6-7-10-7-14c0-7 6-12 16-13l144-21l64-130c4-8 8-12 14-12c6 0 10 4 14 12l64 130l144 21c10 1 16 6 16 13z"></path>
         </symbol>
     </svg>
-    
-    <div class="cactus-widget-demo">
-        <!--btn open-->
-        <div class="cactus-button-open">
-            <svg class="ct-icon-star-two">
-                <use xlink="http://www.w3.org/1999/xlink" xlink:href="#ct-icon-star-two"></use>
-            </svg>
-            <span>DEMOS</span>
-        </div><!--btn open-->
-        
-        <div class="cactus-buy-button">
-            <a href="http://themeforest.net/item/business-hub-responsive-wordpress-theme-for-online-business/14739401?ref=cactusthemes" target="_blank" class="cactus-btn-buy">Buy Now</a>  
-        </div>
-        
-        <div class="cactus-content-scroll mCustomScrollbar _mCS_1 mCS-autoHide"><div id="mCSB_1" class="mCustomScrollBox mCS-light-2 mCSB_vertical mCSB_inside" tabindex="0"><div id="mCSB_1_container" class="mCSB_container" style="position:relative; top:0; left:0;" dir="ltr">
-            <div class="cactus-info-demo">
-            Scroll down<br>to explore more demos
-        </div>
-            <div class="cactus-content-body">
-            
-                
-                <div class="cactus-group-demo">
-                    <div class="cactus-title">6 HOME DEMOS</div>
-                    
-                    <div class="cactus-group-content">
-                    
-                        <div class="cactus-item">
-                            <a href="http://business-hub.cactusthemes.com/" target="_blank" class="cactus-item-content" title="">
-                                <img src="assets/images/home-demo-1.jpg" alt="Main Demo" class="mCS_img_loaded" width="360" height="240">
-                                <div>Main Demo</div>
-                            </a>
-                        </div>
-                        <div class="cactus-item">
-                            <a href="http://business-hub.cactusthemes.com/homepage-v2/" target="_blank" class="cactus-item-content" title="Classic Business">
-                                <img src="assets/images/home-demo-2.jpg" alt="Classic Business" class="mCS_img_loaded" width="360" height="240">
-                                <div>Classic Business</div>
-                            </a>
-                        </div>
-                        <div class="cactus-item">
-                            <a href="http://business-hub.cactusthemes.com/homepage-v3/" target="_blank" class="cactus-item-content" title="Modern Business">
-                                <img src="assets/images/home-demo-3.jpg" alt="Modern Business" class="mCS_img_loaded" width="360" height="240">
-                                <div>Modern Business</div>
-                            </a>
-                        </div>
-                        <div class="cactus-item">
-                            <a href="http://business-hub.cactusthemes.com/homepage-edd/" target="_blank" class="cactus-item-content" title="Online Shop">
-                                <img src="assets/images/home-demo-4.jpg" alt="Online Shop" class="mCS_img_loaded" width="360" height="240">
-                                <div>Online Shop</div>
-                            </a>
-                        </div>
-                        <div class="cactus-item">
-                            <a href="http://business-hub.cactusthemes.com/homepage-v5/" target="_blank" class="cactus-item-content" title="Classic Mobile App">
-                                <img src="assets/images/home-demo-5.jpg" alt="Classic Mobile App" class="mCS_img_loaded" width="360" height="240">
-                                <div>Classic Mobile App</div>
-                            </a>
-                        </div>
-                        <div class="cactus-item">
-                            <a href="http://business-hub.cactusthemes.com/homepage-v6/" target="_blank" class="cactus-item-content" title="Modern Mobile App">
-                                <img src="assets/images/home-demo-6.jpg" alt="Modern Mobile App" class="mCS_img_loaded" width="360" height="240">
-                                <div>Modern Mobile App</div>
-                            </a>
-                        </div>
-                       
-                    </div>
-                </div>
-                
-                <div class="cactus-group-demo">
-                    <div class="cactus-title">Intergration</div>
-                    
-                    <div class="cactus-group-content">
-                        <div class="cactus-item">
-                            <a href="http://business-hub.cactusthemes.com/demo-shop/" target="_blank" class="cactus-item-content" title="WooCommerce Demo">
-                                <img src="assets/images/002-woo-supported.jpg" alt="WooCommerce Demo" class="mCS_img_loaded" width="360" height="240">
-                                <div>WooCommerce Demo</div>
-                            </a>
-                        </div>
-                        
-                        <div class="cactus-item">
-                            <a href="http://business-hub.cactusthemes.com/forums/" target="_blank" class="cactus-item-content" title="BuddyPress Demo">
-                                <img src="assets/images/003-bb-supported.jpg" alt="BuddyPress Demo" class="mCS_img_loaded" width="360" height="240">
-                                <div>BuddyPress Demo</div>
-                            </a>
-                        </div>
-                    </div>
-                </div> 
-                
-            </div>
-        </div><div id="mCSB_1_scrollbar_vertical" class="mCSB_scrollTools mCSB_1_scrollbar mCS-light-2 mCSB_scrollTools_vertical" style="display: block;"><div class="mCSB_draggerContainer"><div id="mCSB_1_dragger_vertical" class="mCSB_dragger" style="position: absolute; min-height: 30px; display: block; height: 276px; max-height: 488px;" oncontextmenu="return false;"><div class="mCSB_dragger_bar" style="line-height: 30px;"></div></div><div class="mCSB_draggerRail"></div></div></div></div></div>
-    </div>
-
-
 </body>
 </html>

@@ -4,7 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-use App\Supplier;
+use App\Manufacturer;
+use App\Supplie;
 
 class IndexController extends Controller
 {
@@ -15,15 +16,14 @@ class IndexController extends Controller
      */
     public function index()
     {
-        $suppliers = Supplier::whereIn('id', [
-                                                1046,
-                                                1410,
-                                                1291,
-                                                4527,
-                                                6034
-                                            ])->get();
+        $suppliers = Manufacturer::whereNotIn('name', ['GENERICO', 'generico', 'Fabricante', 'fabricante', ''])
+                                   ->take(7)->get();
 
-        return view('welcome', compact('suppliers'));
+        $supplies1 = Supplie::orderByRaw('rand()')->take(3)->get();
+        $supplies2 = Supplie::orderByRaw('rand()')->take(3)->get();
+        $supplies_footer = Supplie::orderByRaw('rand()')->take(2)->get();
+
+        return view('index', compact('suppliers', 'supplies1', 'supplies2', 'supplies_footer'));
     }
 
     /**
@@ -31,9 +31,11 @@ class IndexController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
+    public function contact()
     {
-        //
+        $title = 'CONTACTANOS';
+        $supplies_footer = Supplie::orderByRaw('rand()')->take(2)->get();
+        return view('contact', compact('title', 'supplies_footer'));
     }
 
     /**
@@ -42,9 +44,17 @@ class IndexController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function search(Request $request)
     {
-        //
+        $text = $request->search;
+
+        $items = Supplie::where('number', 'like', "%$text%")->paginate(20);
+
+        $supplies_footer = Supplie::orderByRaw('rand()')->take(2)->get();
+
+        $title = 'BUSCAR: '.strtoupper($text);
+
+        return view('products', compact('items', 'title', 'supplies_footer'));
     }
 
     /**
@@ -53,42 +63,10 @@ class IndexController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function about()
     {
-        //
-    }
-
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function edit($id)
-    {
-        //
-    }
-
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function update(Request $request, $id)
-    {
-        //
-    }
-
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function destroy($id)
-    {
-        //
+        $title = 'QUIENES SOMOS';
+        $supplies_footer = Supplie::orderByRaw('rand()')->take(2)->get();
+        return view('about', compact('title', 'supplies_footer'));
     }
 }

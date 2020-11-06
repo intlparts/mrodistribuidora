@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 
 use App\Manufacturer;
+use App\Supplie;
 
 class ManufacturerController extends Controller
 {
@@ -48,8 +49,14 @@ class ManufacturerController extends Controller
      */
     public function show($name)
     {
-        $manufacturer = Manufacturer::where('name', $name)->first();
-        return response()->json($manufacturer);
+        $fabricante = Manufacturer::where('name', $name)->first();
+        $items = Supplie::where('manufacturers_id', $fabricante->id)->paginate(20);
+
+        $supplies_footer = Supplie::orderByRaw('rand()')->take(2)->get();
+
+        $title = strtoupper($name);
+
+        return view('products', compact('items', 'title', 'supplies_footer'));
     }
 
     /**

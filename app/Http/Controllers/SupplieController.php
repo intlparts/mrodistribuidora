@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 
 use App\Supplie;
+use App\Manufacturer;
 
 class SupplieController extends Controller
 {
@@ -15,8 +16,13 @@ class SupplieController extends Controller
      */
     public function index()
     {
-        $supplies = Supplie::paginate(15);
-        return response()->json($supplies);
+        $items = Supplie::paginate(20);
+
+        $supplies_footer = Supplie::orderByRaw('rand()')->take(2)->get();
+
+        $title = 'PRODUCTOS';
+
+        return view('products', compact('items', 'title', 'supplies_footer'));
     }
 
     /**
@@ -49,7 +55,15 @@ class SupplieController extends Controller
     public function show($number)
     {
         $supplie = Supplie::where('number', $number)->first();
-        return response()->json($supplie);
+
+        $fabricante = Manufacturer::where('id', $supplie->manufacturers_id)->first();
+        $supplies = Supplie::where('manufacturers_id', $fabricante->id)->orderByRaw('rand()')->take(4)->get();
+
+        $supplies_footer = Supplie::orderByRaw('rand()')->take(2)->get();
+
+
+        $title = strtoupper($number);
+        return view('product', compact('supplie', 'supplies', 'title', 'supplies_footer'));
     }
 
     /**
