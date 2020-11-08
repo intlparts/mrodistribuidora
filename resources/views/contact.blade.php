@@ -339,42 +339,52 @@ body.page-id-9011 .product h3 .count{display:none;}
 </head>
 
 <body class="archive post-type-archive post-type-archive-download edd-test-mode edd-page group-blog wpb-js-composer js-comp-ver-4.11.2.1 vc_responsive js" style="margin-bottom: 0px;">
-  <div id="body-wrap" class="enable-lazy-load"> <!--body-wrap-->
-      <div id="wrap"> <!--wrap-->
-<header class="config-header-list-page">
-              
-@include('partials.navigation')
-                                       
-
-
-
-<div class="header-style-forall s-style-2">
-              <div class="hs-ct-content">
-                <div class="bg-header-top" style="background-image:url({{ asset('assets/images/picjumbo.jpg') }})">
-                  <div class="header-style-basic container container-1340  dark-div ">
-                                          <div class="title-block">
-                                                  <div class="text-icon">
-                            <div class="fa fa-star"></div>
-                          </div>
-                                                <div class="text-group">
-                          <h1 class="h3">CONTACTANOS</h1>
-                                                      <h2 class="main-font-1 h6">Revisa nuestra informacion</h2>
-                                                  </div>
-                      </div>
-                                        <div class="cactus-breadcrumb"><a href="/">Home</a> <span class="ct-s-v-u">\</span> <span class="current">CONTACT</span></div><!-- .breadcrumbs -->                 </div>
-                </div>                              
-              </div>
-                        </div>
-                                                
-            </header> <div id="cactus-body-container">    
-      <div class="cactus-sidebar-control "> <!-- sb-right , sb-left -->
-          <div class="container container-1340-main">
-              <div class="row">
+  <div id="body-wrap" class="enable-lazy-load">
+  <!--body-wrap-->
+    <div id="wrap">
+    <!--wrap-->
+      
+      <header class="config-header-list-page">
+        
+        @include('partials.navigation')
+        
+        <div class="header-style-forall s-style-2">
+          <div class="hs-ct-content">
+            <div class="bg-header-top" style="background-image:url({{ asset('assets/images/picjumbo.jpg') }})">
+              <div class="header-style-basic container container-1340  dark-div ">
+                <div class="title-block">
+                  <div class="text-icon">
+                    <div class="fa fa-star"></div>
+                  </div>
+                  
+                  <div class="text-group">
+                    <h1 class="h3">CONTACTANOS</h1>
+                    <h2 class="main-font-1 h6">Revisa nuestra informacion</h2>
+                  </div>
+                </div>
                 
-                  <div class="col-md-9 main-content-col">
-                    
-                      <div class="main-content-col-body">
-                           <div class="single-page-content single-content"> 
+                <div class="cactus-breadcrumb">
+                  <a href="/">Home</a>
+                  <span class="ct-s-v-u">\</span>
+                  <span class="current">CONTACT</span>
+                </div>
+                <!-- .breadcrumbs -->
+              </div>
+            </div>                              
+          </div>
+        </div>
+      </header>
+
+      <div id="cactus-body-container">    
+        <div class="cactus-sidebar-control ">
+
+          <!-- sb-right , sb-left -->
+          <div class="container container-1340-main">
+            <div class="row">
+
+              <div class="col-md-9 main-content-col">      
+                <div class="main-content-col-body">
+                  <div class="single-page-content single-content"> 
   <article id="post-4192" class="cactus-single-content post-4192 page type-page status-publish hentry">
       <div class="body-content">
           <div class="vc_row wpb_row vc_row-fluid contact-bus vc_custom_1446085715445"><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner "><div class="wpb_wrapper">
@@ -415,29 +425,22 @@ ventas@mrodistribuidora.com</p>
   </div>
 </div></div></div><div class="wpb_column vc_column_container vc_col-sm-9"><div class="vc_column-inner "><div class="wpb_wrapper"><div role="form" class="wpcf7" id="wpcf7-f4195-p4192-o1" dir="ltr" lang="en-US">
 <div class="screen-reader-response"></div>
-<form action="/contact/#wpcf7-f4195-p4192-o1" method="post" class="wpcf7-form" novalidate="novalidate">
-  <div style="display: none;">
-    <input type="hidden" name="_wpcf7" value="4195">
-    <input type="hidden" name="_wpcf7_version" value="4.4.1">
-    <input type="hidden" name="_wpcf7_locale" value="en_US">
-    <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f4195-p4192-o1">
-    <input type="hidden" name="_wpnonce" value="7f5bdc4f7d">
-  </div>
+<form action="/sendmail" method="post" class="wpcf7-form" novalidate="novalidate">
   <p>
     <span class="wpcf7-form-control-wrap text-25">
-      <input type="text" name="text-25" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Su Nombre *">
+      <input type="text" name="name" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Su Nombre *">
     </span>
     <br>
     <span class="wpcf7-form-control-wrap email-839">
-      <input type="email" name="email-839" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Su Email *">
+      <input type="email" name="email" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Su Email *">
     </span>
     <br>
     <span class="wpcf7-form-control-wrap text-874">
-      <input type="text" name="text-874" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Asunto *">
+      <input type="text" name="subject" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Asunto *">
     </span>
     <br>
     <span class="wpcf7-form-control-wrap textarea-461">
-      <textarea name="textarea-461" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Mensaje *">
+      <textarea name="message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Mensaje *">
       </textarea>
     </span>
     <br>

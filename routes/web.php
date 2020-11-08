@@ -35,3 +35,6 @@ Route::get('/contact', 'IndexController@contact')->name('index.contact');
 
 // About
 Route::get('/about', 'IndexController@about')->name('index.about');
+
+// Send Mail
+Route::post('/sendmail', 'MessageController@send')->name('sendmail.send');
