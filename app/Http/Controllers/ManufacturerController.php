@@ -16,8 +16,13 @@ class ManufacturerController extends Controller
      */
     public function index()
     {
-        $manufacturers = Manufacturer::paginate(15);
-        return response()->json($manufacturers);
+        $items = Manufacturer::paginate(20);
+
+        $supplies_footer = Supplie::orderByRaw('rand()')->take(2)->get();
+
+        $title = 'FABRICANTES';
+
+        return view('manufacturers', compact('items', 'title', 'supplies_footer'));
     }
 
     /**

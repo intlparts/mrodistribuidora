@@ -75,10 +75,10 @@ var cactus = {"ajaxurl":"http:\/\/business-hub.cactusthemes.com\/wp-admin\/admin
 <meta name="generator" content="Easy Digital Downloads v2.5.11">
 <meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress.">
 <!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="http://business-hub.cactusthemes.com/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]--><!--[if IE  8]><link rel="stylesheet" type="text/css" href="http://business-hub.cactusthemes.com/wp-content/plugins/js_composer/assets/css/vc-ie8.min.css" media="screen"><![endif]--><meta name="generator" content="Powered by Slider Revolution 5.1.6 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface.">
-<link rel="icon" href="http://business-hub.cactusthemes.com/wp-content/uploads/2015/12/cropped-Favicon-Businesshub-1-80x80.png" sizes="32x32">
-<link rel="icon" href="http://business-hub.cactusthemes.com/wp-content/uploads/2015/12/cropped-Favicon-Businesshub-1-300x300.png" sizes="192x192">
-<link rel="apple-touch-icon-precomposed" href="http://business-hub.cactusthemes.com/wp-content/uploads/2015/12/cropped-Favicon-Businesshub-1-300x300.png">
-<meta name="msapplication-TileImage" content="http://business-hub.cactusthemes.com/wp-content/uploads/2015/12/cropped-Favicon-Businesshub-1-300x300.png">
+<link rel="icon" href="/favicon.png" sizes="32x32">
+<link rel="icon" href="/favicon.png" sizes="192x192">
+<link rel="apple-touch-icon-precomposed" href="/favicon.png">
+<meta name="msapplication-TileImage" content="/favicon.png">
 <style type="text/css" id="ct_global_custom_css">#ct_custom_9991451999747.btn.btn-default:not(:hover){color:#77b727;background-color:#fff;}#ct_custom_5951451026419.iconbox-item .icon{color:#77b727;}#ct_custom_2271451026419.iconbox-item .icon{color:#77b727;}#ct_custom_6691451026419.iconbox-item .icon{color:#77b727;}#ct_custom_951451026419.iconbox-item .icon{color:#77b727;}#ct_custom_5951451026419.iconbox-item .icon{color:#77b727;}#ct_custom_2271451026419.iconbox-item .icon{color:#77b727;}#ct_custom_6691451026419.iconbox-item .icon{color:#77b727;}#ct_custom_951451026419.iconbox-item .icon{color:#77b727;}#ct_custom_3381451999747.btn.btn-default:not(:hover){color:#ffffff;background-color:#77b727;}#ct_custom_4671444191128.btn.btn-default:not(:hover){color:#ffffff;background-color:#444444;}</style><!-- custom css -->
 				<style type="text/css">.header-v4-builder{margin-bottom: 60px;}.edd-addon .ct-shortcode-sliderv1 .first-child.custom-content, .edd-addon .header-v4-builder .first-child.custom-content .table-content{width: 100%;}.ct-info-bottom{ background-color:#fcc427;} .ct-info-bottom{ height:385px ; } 
 #main-menu>.navbar-default{background-color: rgba(0,0,0,0.5);}

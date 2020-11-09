@@ -89,7 +89,19 @@
     </style>
 
     <!-- custom css -->
-    <style type="text/css">.header-v4-builder{margin-bottom: 60px;}.edd-addon .ct-shortcode-sliderv1 .absolute-img.big-img{background-image:url(http://business-hub.cactusthemes.com/wp-content/uploads/2015/11/businesshub-v4-banner-1.jpg);}.edd-addon .ct-shortcode-sliderv1 .absolute-img.small-img-above{background-image:url(http://business-hub.cactusthemes.com/wp-content/uploads/2015/11/businesshub-v4-banner-2-1.jpg);}.edd-addon .ct-shortcode-sliderv1 .absolute-img.small-img-below{background-image:url(http://business-hub.cactusthemes.com/wp-content/uploads/2015/11/businesshub-v4-banner-3-1.jpg);}
+    <style type="text/css">.header-v4-builder{margin-bottom: 60px;}
+    .edd-addon .ct-shortcode-sliderv1 .absolute-img.big-img
+    {
+      background-image:url({{ asset('assets/images/drill-444493_1280.jpg') }});
+    }
+    .edd-addon .ct-shortcode-sliderv1 .absolute-img.small-img-above
+    {
+      background-image:url({{ asset('assets/images/drill-444484_640.jpg') }});
+    }
+    .edd-addon .ct-shortcode-sliderv1 .absolute-img.small-img-below
+    {
+      background-image:url({{ asset('assets/images/sparks-692122_640.jpg') }});
+    }
  
 .cactus-nav.style-2.style-3 #main-menu>.navbar-default{ background-color:rgba(248,248,248,1)}
         h1, .h1,
@@ -491,9 +503,6 @@ body.page-id-9011 .product h3 .count{display:none;}
   <li id="mega-menu-item-5661" class=" menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children parent level0 has-sub dropdown main-menu-item list-style">
     <a href="/contact">CONTACTO</i></a>
   </li>
-  <li id="mega-menu-item-4795" class=" menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children parent level0 has-sub dropdown main-menu-item dropdown-mega">
-    <a href="/contact">SOLICITAR COTIZACION</i></a>
-  </li>
 </ul>
         
       </div>
@@ -536,11 +545,11 @@ body.page-id-9011 .product h3 .count{display:none;}
                 <!--E menu-->
                     <div class="top-content-bar dark-div">
                         <div class="top-content-bar-content">
-                                                                                                <p><span class="ct-note-menu large bg-m-color-2" style="background-color:#c72c2c">HOT</span>                                                                                   
-                                                <a href="">20% OFF FOR ALL BOOKS IN IT AND TECHNOLOGY CATEGORIES</a>
+                        <p><span class="ct-note-menu large bg-m-color-2" style="background-color:#c72c2c">HOT</span>                                                                                   
+                                                <a href="">ESPECIALISTAS EN PROVEER PIEZAS DIFICILES DE ENCONTRAR</a>
                                                                                                                         </p>
-                                                                    <p><span class="ct-note-menu large bg-m-color-2" style="background-color:#77b727">NEW</span>                                                                                   
-                                                <a href="" title="BE THE FIRST TO OWN FULL SET OF HARRY PORTER">BE THE FIRST TO OWN FULL SET OF HARRY PORTER</a>
+                                                                    <p><span class="ct-note-menu large bg-m-color-2" style="background-color:#77b727">NUEVO</span>                                                                                   
+                                                <a href="" title="BE THE FIRST TO OWN FULL SET OF HARRY PORTER">LOS MEJORES PROVEEDORES Y FABRICANTES</a>
                                                                                                                         </p>
                                                                                     </div>
                     </div><!-- top-content-bar dark-div -->
@@ -568,6 +577,11 @@ body.page-id-9011 .product h3 .count{display:none;}
     </a>
   </li>
   @endforeach
+  <li id="nav-menu-item-5718" class="main-menu-item menu-item-depth-0 menu-item menu-item-type-custom menu-item-object-custom">
+    <a href="/manufacturers" class="menu-link dropdown-toggle disabled main-menu-link">
+      <span class="menu-name">VER TODOS</span>
+    </a>
+  </li>
 </ul>                      </div>
                   </div>
               </div>
@@ -576,12 +590,18 @@ body.page-id-9011 .product h3 .count{display:none;}
                         <div class="metro-content">
                             <div class="dark-div metro-details">
                                 <div class="ct-shortcode-sliderv1">
-                                                                            <div class="first-child">
-                                            <div class="content-item">
+<div class="first-child">
+  <div class="content-item">
                                                 <div class="content-padding">
                                                     <div class="absolute-img big-img">
-                                                         <div class="table-content"><div class="table-row-content"><div class="table-cell-content"><h3 style="font-size: 28px; line-height: 40px; letter-spacing: normal;">CREATE YOUR OWN <br> DIGITAL STORE <br> IN MINUTES </h3>
-<a style="background-color:#fff; color: #ec358d; margin-top:-3px;" href="#" class="btn btn-default  btn-style-1 btn-style-2 btn-style-4"><span class="add-style"><span> BUY THIS THEME </span></span></a></div></div></div>                                                    </div>
+                                                         <div class="table-content"><div class="table-row-content"><div class="table-cell-content">
+
+                                                      <h3 style="font-size: 28px; line-height: 40px; letter-spacing: normal;">
+                                                        PRODUCTOS DE REFACCION<br>
+                                                        INDUSTRIAL EN<br>
+                                                        GUADALAJARA
+                                                      </h3>
+<a style="background-color:#fff; color: #ec358d; margin-top:-3px;" href="/supplies" class="btn btn-default  btn-style-1 btn-style-2 btn-style-4"><span class="add-style"><span> PRODUCTOS </span></span></a></div></div></div>                                                    </div>
                                                 </div>
                                             </div>
                                         </div>

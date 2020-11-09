@@ -25,7 +25,7 @@
     <div class="footer-sidebar">
       <div class="container container-1340">
         <div class="row control-sidebar">
-          <aside id="text-15" class=" col-md-3 widget widget_text module widget-col">
+          <aside id="text-15" class=" col-md-4 widget widget_text module widget-col">
             <div class="widget-inner">
               <h2 class="widget-title h4">QUIENES SOMOS</h2>
               <div class="textwidget">
@@ -36,7 +36,7 @@
             </div>
           </aside>
 
-          <aside id="nav_menu-4" class=" col-md-3 widget widget_nav_menu module widget-col">
+          <aside id="nav_menu-4" class=" col-md-4 widget widget_nav_menu module widget-col">
             <div class="widget-inner">
               <h2 class="widget-title h4">PRODUCTOS</h2>
               <div class="menu-edd-products-footer-container">
@@ -51,35 +51,7 @@
             </div>
           </aside>
 
-          <aside id="text-13" class=" col-md-3 widget widget_text module widget-col">
-            <div class="widget-inner">
-              <h2 class="widget-title h4">NEWSLETTER</h2>
-              <div class="textwidget">
-                <div role="form" class="wpcf7" id="wpcf7-f1707-o1" dir="ltr" lang="en-US">
-                  <div class="screen-reader-response"></div>
-                  <form action="/" method="post" class="wpcf7-form" novalidate="novalidate">
-                    <div style="display: none;">
-                      <input type="hidden" name="_wpcf7" value="1707">
-                      <input type="hidden" name="_wpcf7_version" value="4.4.1">
-                      <input type="hidden" name="_wpcf7_locale" value="en_US">
-                      <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f1707-o1">
-                      <input type="hidden" name="_wpnonce" value="d237513ea7">
-                    </div>
-                    <p>
-                      <span class="wpcf7-form-control-wrap your-name">
-                        <input type="text" name="your-name" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Your Email">
-                      </span>
-                      <input type="submit" value="SUBSCRIBE" class="wpcf7-form-control wpcf7-submit">
-                      <img class="ajax-loader" src="assets/images/ajax-loader.gif" alt="Sending ..." style="visibility: hidden;">
-                    </p>
-                    <div class="wpcf7-response-output wpcf7-display-none"></div>
-                  </form>
-                </div>
-              </div>
-            </div>
-          </aside>
-
-          <aside id="text-29" class=" col-md-3 widget widget_text module widget-col">
+          <aside id="text-29" class=" col-md-4 widget widget_text module widget-col">
             <div class="widget-inner">
               <h2 class="widget-title h4">ATENCION</h2>
               <div class="textwidget">    
@@ -129,9 +101,6 @@
               </li>
               <li id="menu-item-5330" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5330">
                 <a href="/about">NOSOTROS</a>
-              </li>
-              <li id="menu-item-5331" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5331">
-                <a href="#">SITE MAP</a>
               </li>
               <li id="menu-item-4897" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4897">
                 <a href="/contact">CONTACTO</a>

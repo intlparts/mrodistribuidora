@@ -112,10 +112,6 @@
   <li id="mega-menu-item-5661" class=" menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children parent level0 has-sub dropdown main-menu-item list-style">
     <a href="/contact">CONTACTO</i></a>
   </li>
-  <li id="mega-menu-item-4795" class=" menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children parent level0 has-sub dropdown main-menu-item dropdown-mega">
-    <a href="/contact">SOLICITAR COTIZACION</i></a>
-  </li>
-
 </ul>
         
       </div>
