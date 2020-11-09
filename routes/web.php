@@ -11,6 +11,30 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'IndexController@index')->name('index');
+
+Route::get('/test', 'TestController@test');
+
+// suppliers
+Route::get('/providers', 'SupplierController@index')->name('providers.index');
+Route::get('/providers/{trade_name}/', 'SupplierController@show')->name('providers.show');
+
+// Manufacturers
+Route::get('/manufacturers', 'ManufacturerController@index')->name('manufacturers.index');
+Route::get('/manufacturers/{name}/', 'ManufacturerController@show')->name('manufacturers.show');
+
+// Products
+Route::get('/supplies', 'SupplieController@index')->name('supplies.index');
+Route::get('/supplies/{number}/', 'SupplieController@show')->name('supplies.show');
+
+// Search
+Route::get('/search', 'IndexController@search')->name('index.search');
+
+// Contact
+Route::get('/contact', 'IndexController@contact')->name('index.contact');
+
+// About
+Route::get('/about', 'IndexController@about')->name('index.about');
+
+// Send Mail
+Route::post('/sendmail', 'MessageController@send')->name('sendmail.send');
