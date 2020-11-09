@@ -1,0 +1,4 @@
+AuthName "mrodistribuidora.com statistics"
+AuthType Basic
+AuthUserFile /home/mrodistribuidora/.awstats-htpasswd
+require valid-user
