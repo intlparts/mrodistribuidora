@@ -7,7 +7,7 @@ use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 
-class MessageReceived extends Mailable
+class MessageReceivedFile extends Mailable
 {
     use Queueable, SerializesModels;
 
@@ -34,6 +34,12 @@ class MessageReceived extends Mailable
 
         return $this->view('emails.messages-received')
                     ->subject($subject)
-                    ->with([ 'data' => $this->data ]);
+                    ->with([ 'data' => $this->data ])
+                    ->attach(storage_path('app/public/'.$this->data['file']), [
+                        'as' => $this->data['file'],
+                        'mime' => $this->data['mime'],
+
+                    ]);
+;
     }
 }
