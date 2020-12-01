@@ -411,7 +411,7 @@ body.page-id-9011 .product h3 .count{display:none;}
         <ol>
           <li>Ser la empresa con mejores profesionales para proveer piezas de MRO.</li>
           <li>Abastecer a la industria de partes industriales para mantenimiento, reparaciones y operaciones que la misma pueda necesitar.</li>
-          <li>Hacer llegar las piezas solicitadas por nuestros en la mejor optimización del tiempo.</li>
+          <li>Hacer llegar las piezas solicitadas por nuestros clientes en la mejor optimización del tiempo.</li>
           <li>Superar las expectativas de nuestros clientes en cuanto a producto y servicio.</li>
           <li>Estas son las razones por las que todos nuestros clientes permanecen con nosotros.</li>
         </ol>

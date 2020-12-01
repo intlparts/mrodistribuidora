@@ -381,7 +381,7 @@ body.page-id-9011 .product h3 .count{display:none;}
     <!--picture (remove)-->
     <div class="picture">
       <div class="picture-content">
-        <a href="/products/{{ $item->number }}" title="Supplie {{ $item->number }}">
+        <a href="/supplies/{{ $item->number }}" title="Supplie {{ $item->number }}">
           <div class="adaptive">
             <img src="{{ asset('assets/images/parts.png') }}" alt="Supplie {{ $item->number }}" class="cactus-lazy ct-done" style="display: block;" width="460" height="307">
           </div>

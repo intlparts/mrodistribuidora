@@ -392,11 +392,9 @@ body.page-id-9011 .product h3 .count{display:none;}
     <div class="wpb_wrapper">
       <h5>DIRECCION</h5>
 <p>
-México INTL. Parts de México S.A.<br>
-AV. Cristóbal Colón<br>
-#4985. Int. Boreal #605<br>
-Col. Villas Colón Tlaquepaque<br>
-45601 Jalisco, México
+AV. ISLA TERRANOVA NO. 4285 – 17<br>
+COL: RESIDENCIAL JARDINES DEL SUR<br>
+CP: 44950  GUADALAJARA, JAL.
 </p>
 
     </div>
@@ -405,8 +403,7 @@ Col. Villas Colón Tlaquepaque<br>
   <div class="wpb_text_column wpb_content_element ">
     <div class="wpb_wrapper">
       <h5>TELEFONO</h5>
-<p>+52 (33) 2306 85 50<br>
-International: +52 (33) 3271 2547<br>
+<p>01 33 3334 3267   2305 6614<br>
 ventas@mrodistribuidora.com</p>
 
     </div>
@@ -423,29 +420,34 @@ ventas@mrodistribuidora.com</p>
         </ul>
     </div>
   </div>
-</div></div></div><div class="wpb_column vc_column_container vc_col-sm-9"><div class="vc_column-inner "><div class="wpb_wrapper"><div role="form" class="wpcf7" id="wpcf7-f4195-p4192-o1" dir="ltr" lang="en-US">
-<div class="screen-reader-response"></div>
-<form action="/sendmail" method="post" class="wpcf7-form" novalidate="novalidate">
+</div></div></div><div class="wpb_column vc_column_container vc_col-sm-9"><div class="vc_column-inner "><div class="wpb_wrapper">
+    <div role="form" class="wpcf7" id="wpcf7-f4195-p4192-o1" dir="ltr" lang="en-US">
+        <div class="screen-reader-response"></div>
+<form action="/sendmail" method="POST" class="wpcf7-form">
+  @csrf
   <p>
     <span class="wpcf7-form-control-wrap text-25">
-      <input type="text" name="name" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Su Nombre *">
+      <input id="formName" type="text" name="name" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Su Nombre *" required="">
     </span>
     <br>
     <span class="wpcf7-form-control-wrap email-839">
-      <input type="email" name="email" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Su Email *">
+      <input id="formEmail" type="email" name="email" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Su Email *" required="">
     </span>
     <br>
     <span class="wpcf7-form-control-wrap text-874">
-      <input type="text" name="subject" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Asunto *">
+      <input id="formSubject" type="text" name="subject" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Asunto *" required="">
+    </span>
+    <br>
+    <span class="wpcf7-form-control-wrap text-874">
+      <input id="formFile" type="file" name="file" size="40" class="wpcf7-form-control" style="padding: 5px;">
     </span>
     <br>
     <span class="wpcf7-form-control-wrap textarea-461">
-      <textarea name="message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Mensaje *">
-      </textarea>
+      <textarea id="formMessage" name="message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Mensaje *" required=""></textarea>
     </span>
     <br>
-    <input type="submit" value="ENVIAR" class="wpcf7-form-control wpcf7-submit">
-    <img class="ajax-loader" src="contactanos_files/ajax-loader.gif" alt="Sending ..." style="visibility: hidden;"></p>
+    <input id="buttonSend" type="submit" value="ENVIAR" class="wpcf7-form-control wpcf7-submit" onclick="sendForm()" style="">
+    <p id="messageSend" style="display: none;">Mensaje Enviado</p>
 <div class="wpcf7-response-output wpcf7-display-none"></div></form></div></div></div></div></div>
             
                         <!--Content-->
@@ -556,7 +558,7 @@ ventas@mrodistribuidora.com</p>
 <script type="text/javascript" src="{{ asset('assets2/js/a_002.js') }}"></script>
 <script type="text/javascript">
 /* <![CDATA[ */
-var _wpcf7 = {"loaderUrl":"http:\/\/business-hub.cactusthemes.com\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","recaptchaEmpty":"Please verify that you are not a robot.","sending":"Sending ..."};
+var _wpcf7 = {"loaderUrl":"","recaptchaEmpty":"Please verify that you are not a robot.","sending":"Sending ..."};
 /* ]]> */
 </script>
 <script type="text/javascript">
@@ -608,5 +610,20 @@ var google_remarketing_only = true;
       <path d="m494 185c0 4-3 9-8 14l-103 101l24 143c0 1 0 3 0 5c0 4-1 8-3 10c-2 3-4 5-8 5c-4 0-8-2-12-4l-128-67l-128 67c-4 2-8 4-12 4c-4 0-7-2-9-5c-2-2-3-6-3-10c0-1 0-3 1-5l24-143l-104-101c-4-6-7-10-7-14c0-7 6-12 16-13l144-21l64-130c4-8 8-12 14-12c6 0 10 4 14 12l64 130l144 21c10 1 16 6 16 13z"></path>
     </symbol>
   </svg>
+<script type="text/javascript">
+function sendForm() {
+
+    setTimeout(function() {
+        document.getElementById('formName').value = "";
+        document.getElementById('formEmail').value = "";
+        document.getElementById('formSubject').value = "";
+        document.getElementById('formFile').value = "";
+        document.getElementById('formMessage').value = "";
+        document.getElementById('buttonSend').style = "display:none;";
+        document.getElementById('messageSend').style = "color: green;font-size: 24px;padding-top: 0px;";
+    }, 5000);
+
+}
+</script>
 
 </body></html>
