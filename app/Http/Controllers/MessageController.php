@@ -36,7 +36,7 @@ class MessageController extends Controller
             'mime' => $mime,
         ];
 
-        $to = 'jonathanch1991@gmail.com';
+        $to = 'ventas@mrodistribuidora.com';
 
         if ($file != '') {
             Mail::to([$to])->send(new MessageReceivedFile($data));
