@@ -36,7 +36,7 @@ class MessageController extends Controller
             'mime' => $mime,
         ];
 
-        $to = 'ventas@mrodistribuidora.com';
+        $to = env('MAIL_FROM_RECIVED');
 
         if ($file != '') {
             Mail::to([$to])->send(new MessageReceivedFile($data));
