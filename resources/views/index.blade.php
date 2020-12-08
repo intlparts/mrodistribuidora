@@ -495,7 +495,7 @@ body.page-id-9011 .product h3 .count{display:none;}
   <li id="mega-menu-item-1636" class=" menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home current-menu-ancestor current-menu-parent menu-item-has-children parent level0 has-sub dropdown main-menu-item list-style">
     <a href="/">INICIO</i></a>
   <li id="mega-menu-item-4155" class=" menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children parent level0 has-sub dropdown main-menu-item list-style">
-    <a href="/supplies">PRODUCTOS</i></a>
+    <a href="/productos">PRODUCTOS</i></a>
   </li>
   <li id="mega-menu-item-6328" class=" menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children parent level0 has-sub dropdown main-menu-item list-style">
     <a href="/about">QUIENES SOMOS</i></a>
@@ -572,13 +572,13 @@ body.page-id-9011 .product h3 .count{display:none;}
 <ul>
   @foreach($suppliers as $supplier)
   <li id="nav-menu-item-5718" class="main-menu-item menu-item-depth-0 menu-item menu-item-type-custom menu-item-object-custom">
-    <a href="/manufacturers/{{ $supplier->name }}" class="menu-link dropdown-toggle disabled main-menu-link">
+    <a href="/fabricantes/{{ $supplier->name }}" class="menu-link dropdown-toggle disabled main-menu-link">
       <span class="menu-name">{{ $supplier->name }}</span>
     </a>
   </li>
   @endforeach
   <li id="nav-menu-item-5718" class="main-menu-item menu-item-depth-0 menu-item menu-item-type-custom menu-item-object-custom">
-    <a href="/manufacturers" class="menu-link dropdown-toggle disabled main-menu-link">
+    <a href="/fabricantes" class="menu-link dropdown-toggle disabled main-menu-link">
       <span class="menu-name">VER TODOS</span>
     </a>
   </li>
@@ -601,7 +601,7 @@ body.page-id-9011 .product h3 .count{display:none;}
                                                         INDUSTRIAL EN<br>
                                                         GUADALAJARA
                                                       </h3>
-<a style="background-color:#fff; color: #ec358d; margin-top:-3px;" href="/supplies" class="btn btn-default  btn-style-1 btn-style-2 btn-style-4"><span class="add-style"><span> PRODUCTOS </span></span></a></div></div></div>                                                    </div>
+<a style="background-color:#fff; color: #ec358d; margin-top:-3px;" href="/productos" class="btn btn-default  btn-style-1 btn-style-2 btn-style-4"><span class="add-style"><span> PRODUCTOS </span></span></a></div></div></div>                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -849,7 +849,7 @@ body.page-id-9011 .product h3 .count{display:none;}
     <!--picture (remove)-->
     <div class="picture">
       <div class="picture-content">
-        <a href="/supplies/{{ $supplie->number }}" title="Supplie {{ $supplie->number }}">
+        <a href="/productos/{{ $supplie->number }}" title="Supplie {{ $supplie->number }}">
           <div class="adaptive">
             <img src="{{ asset('assets/images/team.jpg') }}" alt="edd-demo-02" class="cactus-lazy ct-done" style="display: block;" width="460" height="307">
           </div>
@@ -861,7 +861,7 @@ body.page-id-9011 .product h3 .count{display:none;}
     <div class="content">
       <!--Title (no title remove)-->
       <h3 class="h5 cactus-post-title entry-title">
-        <a href="/supplies/{{ $supplie->number }}" title="">{{ $supplie->number }}</a>
+        <a href="/productos/{{ $supplie->number }}" title="">{{ $supplie->number }}</a>
       </h3>
       <!--Title-->
       <div class="cactus-last-child"></div>
@@ -1038,7 +1038,7 @@ body.page-id-9011 .product h3 .count{display:none;}
     <!--picture (remove)-->
     <div class="picture">
       <div class="picture-content">
-        <a href="/supplies/{{ $supplie->number }}" title="Supplie {{ $supplie->number }}">
+        <a href="/productos/{{ $supplie->number }}" title="Supplie {{ $supplie->number }}">
           <div class="adaptive">
             <img src="{{ asset('assets/images/team.jpg') }}" alt="edd-demo-02" class="cactus-lazy ct-done" style="display: block;" width="460" height="307">
           </div>
@@ -1050,7 +1050,7 @@ body.page-id-9011 .product h3 .count{display:none;}
     <div class="content">
       <!--Title (no title remove)-->
       <h3 class="h5 cactus-post-title entry-title">
-        <a href="/supplies/{{ $supplie->number }}" title="">{{ $supplie->number }}</a>
+        <a href="/productos/{{ $supplie->number }}" title="">{{ $supplie->number }}</a>
       </h3>
       <!--Title-->
       <div class="cactus-last-child"></div>

@@ -13,25 +13,23 @@
 
 Route::get('/', 'IndexController@index')->name('index');
 
-Route::get('/test', 'TestController@test');
-
 // suppliers
 Route::get('/providers', 'SupplierController@index')->name('providers.index');
 Route::get('/providers/{trade_name}/', 'SupplierController@show')->name('providers.show');
 
-// Manufacturers
-Route::get('/manufacturers', 'ManufacturerController@index')->name('manufacturers.index');
-Route::get('/manufacturers/{name}/', 'ManufacturerController@show')->name('manufacturers.show');
+// Fabricantes
+Route::get('/fabricantes', 'ManufacturerController@index')->name('fabricantes.index');
+Route::get('/fabricantes/{name}/', 'ManufacturerController@show')->name('fabricantes.show');
 
 // Products
-Route::get('/supplies', 'SupplieController@index')->name('supplies.index');
-Route::get('/supplies/{number}/', 'SupplieController@show')->name('supplies.show');
+Route::get('/productos', 'SupplieController@index')->name('products.index');
+Route::get('/productos/{number}/', 'SupplieController@show')->name('products.show');
 
 // Search
 Route::get('/search', 'IndexController@search')->name('index.search');
 
 // Contact
-Route::get('/contact', 'IndexController@contact')->name('index.contact');
+Route::get('/contacto', 'IndexController@contact')->name('index.contacto');
 
 // About
 Route::get('/about', 'IndexController@about')->name('index.about');

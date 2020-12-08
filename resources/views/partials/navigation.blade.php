@@ -104,7 +104,7 @@
   <li id="mega-menu-item-1636" class=" menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home current-menu-ancestor current-menu-parent menu-item-has-children parent level0 has-sub dropdown main-menu-item list-style">
     <a href="/">INICIO</i></a>
   <li id="mega-menu-item-4155" class=" menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children parent level0 has-sub dropdown main-menu-item list-style">
-    <a href="/supplies">PRODUCTOS</i></a>
+    <a href="/productos">PRODUCTOS</i></a>
   </li>
   <li id="mega-menu-item-6328" class=" menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children parent level0 has-sub dropdown main-menu-item list-style">
     <a href="/about">QUIENES SOMOS</i></a>

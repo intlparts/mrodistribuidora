@@ -43,7 +43,7 @@
                 <ul id="menu-edd-products-footer" class="menu">
                   @foreach($supplies_footer as $supplie)
                   <li id="menu-item-7408" class="menu-item menu-item-type-post_type menu-item-object-download menu-item-7408">
-                    <a href="/supplies/{{ $supplie->number }}">{{ $supplie->number }}</a>
+                    <a href="/productos/{{ $supplie->number }}">{{ $supplie->number }}</a>
                   </li>
                   @endforeach
                 </ul>

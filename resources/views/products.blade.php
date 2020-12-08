@@ -381,7 +381,7 @@ body.page-id-9011 .product h3 .count{display:none;}
     <!--picture (remove)-->
     <div class="picture">
       <div class="picture-content">
-        <a href="/supplies/{{ $item->number }}" title="Supplie {{ $item->number }}">
+        <a href="/productos/{{ $item->number }}" title="Supplie {{ $item->number }}">
           <div class="adaptive">
             <img src="{{ asset('assets/images/parts.png') }}" alt="Supplie {{ $item->number }}" class="cactus-lazy ct-done" style="display: block;" width="460" height="307">
           </div>
@@ -393,7 +393,7 @@ body.page-id-9011 .product h3 .count{display:none;}
     <div class="content">
       <!--Title (no title remove)-->
       <h3 class="h5 cactus-post-title entry-title">
-        <a href="/supplies/{{ $item->number }}" title="">{{ $item->number }}</a>
+        <a href="/productos/{{ $item->number }}" title="">{{ $item->number }}</a>
       </h3>
       <!--Title-->
       <div class="cactus-last-child"></div>
