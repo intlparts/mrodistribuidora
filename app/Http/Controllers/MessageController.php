@@ -3,9 +3,11 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Mail;
-use App\Mail\MessageReceivedFile;
 use App\Mail\MessageReceived;
+use App\Mail\MessageReceivedFile;
+use App\Mail\SendPartNumberEmail;
+use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Facades\Session;
 
 class MessageController extends Controller
 {
@@ -45,5 +47,15 @@ class MessageController extends Controller
         }
 
         return response()->json('Correo enviado');
+    }
+
+    public function sendPartNumber(Request $request)
+    {
+        
+        $to = env('MAIL_FROM_RECIVED');
+        Mail::to([$to])->send(new SendPartNumberEmail($request->all()));
+        
+        $request->session()->flash('message', 'Mensaje enviado satisfactoriamente, nos comunicaremos lo más pronto con usted.');
+        return back();
     }
 }

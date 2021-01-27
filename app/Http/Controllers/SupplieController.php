@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 
 use App\Supplie;
 use App\Manufacturer;
+use SEO;
 
 class SupplieController extends Controller
 {
@@ -16,9 +17,21 @@ class SupplieController extends Controller
      */
     public function index()
     {
-        $items = Supplie::paginate(20);
+        SEO::setTitle("Productos");
+        $items = Supplie::select('manufacturers.name as manufacturer', 'manufacturers.slug as manufacturer_slug', 'supplies.number', 'supplies.slug as number_slug')
+        ->leftJoin('manufacturers', 'supplies.manufacturers_id', 'manufacturers.id')
+        ->where('manufacturers.slug', '<>', '')
+        ->where('supplies.slug', '<>', '')
+        ->distinct()
+        ->paginate(20);
 
-        $supplies_footer = Supplie::orderByRaw('rand()')->take(2)->get();
+        $supplies_footer = Supplie::select('manufacturers.slug as name', 'supplies.slug as number_slug')
+        ->leftJoin('manufacturers', 'supplies.manufacturers_id', 'manufacturers.id')
+        ->orderByRaw('rand()')
+        ->where('manufacturers.slug', '<>', '')
+        ->where('supplies.slug', '<>', '')
+        ->take(2)
+        ->get();
 
         $title = 'PRODUCTOS';
 
@@ -52,14 +65,35 @@ class SupplieController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($number)
+    public function show($manufacturer, $number)
     {
-        $supplie = Supplie::where('number', $number)->first();
 
+        $supplie = Supplie::where('slug', $number)->where('sync_connection_id', 1)->first();
+
+        if(!$supplie){
+            $supplie = Supplie::where('slug', $number)->first();
+        }
+
+        SEO::setTitle($supplie->number);
+        SEO::setDescription($supplie->large_description);
+        
         $fabricante = Manufacturer::where('id', $supplie->manufacturers_id)->first();
-        $supplies = Supplie::where('manufacturers_id', $fabricante->id)->orderByRaw('rand()')->take(4)->get();
 
-        $supplies_footer = Supplie::orderByRaw('rand()')->take(2)->get();
+        $supplies = Supplie::select('manufacturers.name as manufacturer', 'manufacturers.slug as manufacturer_slug', 'supplies.number', 'supplies.slug as number_slug')
+        ->leftJoin('manufacturers', 'supplies.manufacturers_id', 'manufacturers.id')
+        ->where('supplies.manufacturers_id', $supplie->manufacturers_id)
+        ->where('manufacturers.slug', '<>', '')
+        ->where('supplies.slug', '<>', '')
+        ->take(4)
+        ->get();
+
+        $supplies_footer = Supplie::select('manufacturers.name as manufacturer', 'manufacturers.slug as manufacturer_slug', 'supplies.number', 'supplies.slug as number_slug')
+        ->leftJoin('manufacturers', 'supplies.manufacturers_id', 'manufacturers.id')
+        ->where('manufacturers.slug', '<>', '')
+        ->where('supplies.slug', '<>', '')
+        ->orderByRaw('rand()')
+        ->take(2)
+        ->get();
 
 
         $title = strtoupper($number);

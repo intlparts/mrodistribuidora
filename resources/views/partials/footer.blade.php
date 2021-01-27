@@ -42,9 +42,12 @@
               <div class="menu-edd-products-footer-container">
                 <ul id="menu-edd-products-footer" class="menu">
                   @foreach($supplies_footer as $supplie)
-                  <li id="menu-item-7408" class="menu-item menu-item-type-post_type menu-item-object-download menu-item-7408">
-                    <a href="/productos/{{ $supplie->number }}">{{ $supplie->number }}</a>
-                  </li>
+                    <li id="menu-item-7408" class="menu-item menu-item-type-post_type menu-item-object-download menu-item-7408">
+                      <a href="{{ route('products.show', [
+                        'manufacturer'=> $supplie->manufacturer_slug,
+                        'number' => $supplie->number_slug,
+                        ]) }}">{{ $supplie->number }}</a>
+                    </li>
                   @endforeach
                 </ul>
               </div>

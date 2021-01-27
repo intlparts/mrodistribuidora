@@ -28,7 +28,6 @@ class GenerateSitemap extends Command
      */
     public function handle()
     {
-        // modify this to your own needs
         SitemapGenerator::create('https://mrodistribuidora.com')
             ->writeToFile(public_path('sitemap.xml'));
     }

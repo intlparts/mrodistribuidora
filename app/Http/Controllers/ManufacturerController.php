@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 
 use App\Manufacturer;
 use App\Supplie;
+use SEO;
 
 class ManufacturerController extends Controller
 {
@@ -18,7 +19,13 @@ class ManufacturerController extends Controller
     {
         $items = Manufacturer::paginate(20);
 
-        $supplies_footer = Supplie::orderByRaw('rand()')->take(2)->get();
+        $supplies_footer = Supplie::select('manufacturers.name as manufacturer', 'manufacturers.slug as manufacturer_slug', 'supplies.number', 'supplies.slug as number_slug')
+        ->leftJoin('manufacturers', 'supplies.manufacturers_id', 'manufacturers.id')
+        ->where('manufacturers.slug', '<>', '')
+        ->where('supplies.slug', '<>', '')
+        ->orderByRaw('rand()')
+        ->take(2)
+        ->get();
 
         $title = 'FABRICANTES';
 
@@ -54,12 +61,26 @@ class ManufacturerController extends Controller
      */
     public function show($name)
     {
-        $fabricante = Manufacturer::where('name', $name)->first();
-        $items = Supplie::where('manufacturers_id', $fabricante->id)->paginate(20);
+        $fabricante = Manufacturer::where('slug', $name)->first();
+        SEO::setTitle($fabricante->name);
+        SEO::setDescription("Piezas $fabricante->name de la mejor calidad y disposición a su servicio");
+        $items =  Supplie::select('manufacturers.name as manufacturer', 'manufacturers.slug as manufacturer_slug', 'supplies.number', 'supplies.slug as number_slug')
+        ->leftJoin('manufacturers', 'supplies.manufacturers_id', 'manufacturers.id')
+        ->where('manufacturers_id', $fabricante->id)
+        ->where('manufacturers.slug', '<>', '')
+        ->where('supplies.slug', '<>', '')
+        ->distinct()
+        ->paginate(20);
 
-        $supplies_footer = Supplie::orderByRaw('rand()')->take(2)->get();
+        $supplies_footer = Supplie::select('manufacturers.name as manufacturer', 'manufacturers.slug as manufacturer_slug', 'supplies.number', 'supplies.slug as number_slug')
+        ->leftJoin('manufacturers', 'supplies.manufacturers_id', 'manufacturers.id')
+        ->where('manufacturers.slug', '<>', '')
+        ->where('supplies.slug', '<>', '')
+        ->orderByRaw('rand()')
+        ->take(2)
+        ->get();
 
-        $title = strtoupper($name);
+        $title = strtoupper($fabricante->name);
 
         return view('products', compact('items', 'title', 'supplies_footer'));
     }
