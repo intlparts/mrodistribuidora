@@ -12,6 +12,7 @@
         <li>Nombre: {{ $data['name'] }}</li>
         <li>Email: {{ $data['email'] }}</li>
         <li>Teléfono: {{ $data['phone'] }}</li>
+        <li>Fabricante: {{ $data['manufacturer'] }}</li>
         <li>Número de Parte: {{ $data['part_number'] }}</li>
         <li>Cantidad: {{ $data['quantity'] }}</li>
     </ul>
