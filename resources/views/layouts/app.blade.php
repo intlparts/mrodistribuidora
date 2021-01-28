@@ -6,6 +6,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         {!! SEO::generate() !!}
         <link rel="stylesheet" id="theme-my-login-group-css" href="{{ asset('assets/css/style.css') }}" type="text/css" media="all">
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id={{env('KEY_GOOGLE_ADS')}}"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', {{env('KEY_GOOGLE_ADS')}});
+        </script>
     </head>
     <body class="@if(Request::is('/')) {{'home'}} @endif page-template page-template-templates page-template-edd-page-template page-template-templatesedd-page-template-php page page-id-4469 edd-test-mode edd-page group-blog wpb-js-composer js-comp-ver-4.11.2.1 vc_responsive js" style="margin-bottom: 0px;">
         @yield('content')
