@@ -11,8 +11,7 @@ return [
         'defaults'       => [
             'title'        => "MRO", // set false to total remove
             'titleBefore'  => false, // Put defaults.title before page title, like 'It's Over 9000! - Dashboard'
-            'description'  => 'Empresa dedicada a la venta de piezas mantenimiento, reparación y operaciones 
-            en Jalisco', // set false to total remove
+            'description'  => 'Empresa dedicada a la venta de piezas para el mantenimiento, reparación y operaciones en Jalisco', // set false to total remove
             'separator'    => ' - ',
             'keywords'     => [],
             'canonical'    => false, // Set null for using Url::current(), set false to total remove
